@@ -7,13 +7,15 @@ import Navbar from "./components/Navbar/Navbar";
 function App() {
   return (
     <div>
-    <Navbar />
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about-us" element={<AboutUs />} />
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Navbar />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about-us" element={<AboutUs />} />
+          </Routes>
+        </main>
+      </BrowserRouter>
     </div>
   );
 }

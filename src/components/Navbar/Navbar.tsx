@@ -36,7 +36,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="nav-container">
+    <nav className="nav-container">
       <div className="logo-text">
         <span className="logo-text-enovia">Enovia</span>
         <span className="logo-text-labs">Labs</span>
@@ -59,7 +59,7 @@ const Navbar = () => {
         <button className="nav-button">Explore Careers</button>
         <button className="nav-button">Lets Talk Business</button>
       </div>
-        {/* <Button onClick={()=> {console.log("I am clicked")}}>Explore Careers</Button> */}
+      {/* <Button onClick={()=> {console.log("I am clicked")}}>Explore Careers</Button> */}
       <div
         className="nav-right-option"
         onClick={() =>
@@ -74,7 +74,7 @@ const Navbar = () => {
           />
         </span>
       </div>
-    </div>
+    </nav>
   );
 };
 

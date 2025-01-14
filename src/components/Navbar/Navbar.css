@@ -58,6 +58,12 @@ ul {
 .nav-button:hover {
   background-color: #0ebab1;
   color: white;
+  border:none
+}
+.nav-button:active {
+  background-color: #0ebab1;
+  color: white;
+  border:none
 }
 
 
