@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 0.9rem;
 }
 
 .logo-text {
@@ -48,9 +49,23 @@ ul {
   }
 
 .nav-button {
-
+  border: 1px solid #0ebab1;
+  background-color: black;
+  color: #0ebab1;
+  border-radius: 30px;
 }
+
+.nav-button:hover {
+  background-color: #0ebab1;
+  color: white;
+}
+
 
 .nav-right-option {
   cursor: pointer;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 1rem;
 }

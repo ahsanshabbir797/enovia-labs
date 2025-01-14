@@ -2,7 +2,7 @@ import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
-import Button from "./Button/Button";
+// import Button from "./Button/Button";
 
 // Define the type for each menu item
 type MenuItem = {
@@ -54,10 +54,12 @@ const Navbar = () => {
           ))}
         </ul>
       </div>
-      <div>
-        <Button onClick={()=> {console.log("I am clicked")}}>Explore Careers</Button>
-        {/* <button></button> */}
+      <div className="buttons-container">
+        {/* <Button onClick={()=> {console.log("I am clicked")}}>Explore Careers</Button> */}
+        <button className="nav-button">Explore Careers</button>
+        <button className="nav-button">Lets Talk Business</button>
       </div>
+        {/* <Button onClick={()=> {console.log("I am clicked")}}>Explore Careers</Button> */}
       <div
         className="nav-right-option"
         onClick={() =>
