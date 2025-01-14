@@ -1,0 +1,77 @@
+.nav-container {
+    padding: 5px 25px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+.logo-text {
+}
+
+.logo-text-enovia {
+  font-size: 32px; /* Adjust this value as needed */
+  /* font-weight: bold; */
+}
+
+.logo-text-labs {
+    color: #0ebab1;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none; /* Removes the bullets */
+    padding: 0; /* Removes the padding */
+    cursor: pointer;
+  }
+  
+  ul li {
+    display: inline; /* Makes the list items inline */
+    margin-right: 10px; /* Optional: adds space between items */
+    padding: 24px 11px;
+  }
+
+  .caret-icon {
+    margin-left: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Rotate the caret when active */
+  .rotate {
+    transform: rotate(180deg); /* Rotates the icon 180 degrees */
+  }
+
+  .right-corner-option {
+    cursor: pointer;
+  }
+
+.nav-button {
+  border: 1px solid #0ebab1;
+  background-color: black;
+  color: #0ebab1;
+  border-radius: 30px;
+}
+
+.nav-button:hover {
+  background-color: #0ebab1;
+  color: white;
+  border:none
+}
+.nav-button:active {
+  background-color: #0ebab1;
+  color: white;
+  border:none
+}
+
+
+.nav-right-option {
+  cursor: pointer;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 1rem;
+}
