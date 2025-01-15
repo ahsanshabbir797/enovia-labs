@@ -1,16 +1,14 @@
 import { useState } from "react";
 import data from "../../data.json";
 import styles from "./Our-Services.module.css";
-import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { faArrowDown, faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function OurServices() {
   const [showMore, setShowMore] = useState<boolean>(false);
 
   const toggleShowMore = () => {
-    console.log("Show more before:::", showMore);
     setShowMore((prev) => !prev);
-    console.log("Show more after:::", showMore);
   };
   const cardsList = data["ourServices"];
   const displayedCards = showMore ? cardsList : cardsList.slice(0, 4);
@@ -18,7 +16,6 @@ function OurServices() {
   return (
     <div className={styles["container"]}>
       <p className={styles["main-heading"]}>OUR SERVICES</p>
-      {/* <br /> */}
       <h1>TRANSFORM YOUR BUSINESS</h1>
       <br />
       <br />
@@ -35,14 +32,13 @@ function OurServices() {
           );
         })}
       </div>
-       
-        <button className={styles["nav-button"]} onClick={toggleShowMore}>
-          Show More Services  {" "}<FontAwesomeIcon
-                          icon={faArrowDown}
-                        //   className={`caret-icon ${item.isOpen ? "rotate" : ""}`}
-                        />
-        </button>
-      
+      <button className={styles["show-more-button"]} onClick={toggleShowMore}>
+        {showMore ? "Show Less" : "Show More"}
+        <FontAwesomeIcon
+          icon={showMore ? faArrowUp : faArrowDown}
+          style={{ marginLeft: "5px" }}
+        />
+      </button>
     </div>
   );
 }

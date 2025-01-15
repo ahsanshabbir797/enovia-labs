@@ -51,7 +51,11 @@ h2 {
   background-position: center;
   background-size: cover;
   position: relative;
-  
+}
+.card:hover {
+  transition: 0.5s;
+  scale: 1.15;
+  cursor: pointer;
 }
 .card::after {
     border-radius: 0.4rem;
@@ -66,10 +70,14 @@ h2 {
     pointer-events: none;
   }
 
-  .nav-button {
+  .show-more-button {
     border: 1px solid #0ebab1;
     background-color: black;
     color: #0ebab1;
     padding: 1rem 1rem;
     border-radius: 30px;
+  }
+  .show-more-button:hover{
+    background-color: black;
+    color: #0ebab1b0;
   }
