@@ -3,102 +3,102 @@
     {
       "id": 1,
       "name": "Web Development",
-      "imagePath": "../assets/web-development.jpg"
+      "imagePath": "src/assets/web-development.jpg"
     },
     {
       "id": 2,
       "name": "Staff Augmentation",
-      "imagePath": "../assets/Staff-augmentation.jpg"
+      "imagePath": "src/assets/Staff-augmentation.jpg"
     },
     {
       "id": 3,
       "name": "Mobile App Development",
-      "imagePath": "../assets/mobile-development.jpg"
+      "imagePath": "src/assets/mobile-development.jpg"
     },
     {
       "id": 4,
       "name": "UI/UX Design",
-      "imagePath": "../assets/UI-UX.jpg"
+      "imagePath": "src/assets/UI-UX.jpg"
     },
     {
       "id": 5,
       "name": "QA & Testing",
-      "imagePath": "../assets/qa-testing.jpeg"
+      "imagePath": "src/assets/qa-testing.jpeg"
     },
     {
       "id": 6,
       "name": "IT Consulting",
-      "imagePath": "../assets/IT-consulting.jpg"
+      "imagePath": "src/assets/IT-consulting.jpg"
     },
     {
       "id": 7,
       "name": "Cloud Maintenance & Integration",
-      "imagePath": "../assets/cloud-maintenance.jpg"
+      "imagePath": "src/assets/cloud-maintenance.jpg"
     },
     {
       "id": 8,
       "name": "DevOps",
-      "imagePath": "../assets/devops.jpg"
+      "imagePath": "src/assets/devops.jpg"
     },
     {
       "id": 9,
       "name": "Blockchain & Cryptography",
-      "imagePath": "../assets/crypto.jpg"
+      "imagePath": "src/assets/crypto.jpg"
     },
     {
       "id": 10,
-      "name": "Information of Things (IoT)",
-      "imagePath": "../assets/iot.jpg"
+      "name": "Internet of Things (IoT)",
+      "imagePath": "src/assets/iot.jpg"
     },
     {
       "id": 11,
       "name": "Artificial Intelligence & Machine Learning",
-      "imagePath": "../assets/AI-ML.jpg"
+      "imagePath": "src/assets/AI-ML.jpg"
     },
     {
       "id": 12,
       "name": "AR, VR & XR Gaming",
-      "imagePath": "../assets/AR-VR.jpg"
+      "imagePath": "src/assets/AR-VR.jpg"
     },
     {
       "id": 13,
       "name": "Cyber Security",
-      "imagePath": "../assets/cybersecurity.jpg"
+      "imagePath": "src/assets/cybersecurity.jpg"
     },
     {
       "id": 14,
       "name": "Data Analytics & Insights",
-      "imagePath": "../assets/data-analytics.jpg"
+      "imagePath": "src/assets/data-analytics.jpg"
     },
     {
       "id": 15,
       "name": "Digital Marketing",
-      "imagePath": "../assets/digital-marketing.jpg"
+      "imagePath": "src/assets/digital-marketing.jpg"
     },
     {
       "id": 16,
       "name": "Graphic Design",
-      "imagePath": "../assets/graphic-designing.jpg"
+      "imagePath": "src/assets/graphic-designing.jpg"
     },
     {
       "id": 17,
       "name": "Game Development",
-      "imagePath": "../assets/game-development.jpg"
+      "imagePath": "src/assets/game-development.jpg"
     },
     {
       "id": 18,
       "name": "IT Support",
-      "imagePath": "../assets/It-support.jpg"
+      "imagePath": "src/assets/It-support.jpg"
     },
     {
       "id": 19,
       "name": "SaaS",
-      "imagePath": "../assets/saas.jpg"
+      "imagePath": "src/assets/saas.jpg"
     },
     {
       "id": 20,
       "name": "Cloud Migration & Deployment",
-      "imagePath": "../assets/cloud-migration"
+      "imagePath": "src/assets/cloud-migration.jpg"
     }
   ]
 }
