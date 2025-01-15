@@ -57,6 +57,10 @@ h2 {
   scale: 1.15;
   cursor: pointer;
 }
+
+.card:hover::after{
+    background: rgba(0, 0, 0, 0.501);
+}
 .card::after {
     border-radius: 0.4rem;
     content: "";
