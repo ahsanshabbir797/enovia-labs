@@ -1,0 +1,104 @@
+{
+  "ourServices": [
+    {
+      "id": 1,
+      "name": "Web Development",
+      "imagePath": "src/assets/web-development.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Staff Augmentation",
+      "imagePath": "src/assets/Staff-augmentation.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Mobile App Development",
+      "imagePath": "src/assets/mobile-development.jpg"
+    },
+    {
+      "id": 4,
+      "name": "UI/UX Design",
+      "imagePath": "src/assets/UI-UX.jpg"
+    },
+    {
+      "id": 5,
+      "name": "QA & Testing",
+      "imagePath": "src/assets/qa-testing.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "IT Consulting",
+      "imagePath": "src/assets/IT-consulting.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Cloud Maintenance & Integration",
+      "imagePath": "src/assets/cloud-maintenance.jpg"
+    },
+    {
+      "id": 8,
+      "name": "DevOps",
+      "imagePath": "src/assets/devops.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Blockchain & Cryptography",
+      "imagePath": "src/assets/crypto.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Internet of Things (IoT)",
+      "imagePath": "src/assets/iot.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Artificial Intelligence & Machine Learning",
+      "imagePath": "src/assets/AI-ML.jpg"
+    },
+    {
+      "id": 12,
+      "name": "AR, VR & XR Gaming",
+      "imagePath": "src/assets/AR-VR.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Cyber Security",
+      "imagePath": "src/assets/cybersecurity.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Data Analytics & Insights",
+      "imagePath": "src/assets/data-analytics.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Digital Marketing",
+      "imagePath": "src/assets/digital-marketing.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Graphic Design",
+      "imagePath": "src/assets/graphic-designing.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Game Development",
+      "imagePath": "src/assets/game-development.jpg"
+    },
+    {
+      "id": 18,
+      "name": "IT Support",
+      "imagePath": "src/assets/It-support.jpg"
+    },
+    {
+      "id": 19,
+      "name": "SaaS",
+      "imagePath": "src/assets/saas.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Cloud Migration & Deployment",
+      "imagePath": "src/assets/cloud-migration.jpg"
+    }
+  ]
+}
