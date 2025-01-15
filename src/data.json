@@ -1,0 +1,116 @@
+{
+  "ourServices": [
+    {
+      "name": "Web Development",
+      "imagePath": ""
+    },
+    {
+      "name": "Mobile Development",
+      "imagePath": ""
+    },
+    {
+      "name": "UI/UX Design",
+      "imagePath": ""
+    },
+    {
+      "name": "QA & Testing",
+      "imagePath": ""
+    },
+    {
+      "name": "IT Consulting",
+      "imagePath": ""
+    },
+    {
+      "name": "Cloud Computing",
+      "imagePath": ""
+    },
+    {
+      "name": "DevOps",
+      "imagePath": ""
+    },
+    {
+      "name": "Blockchain",
+      "imagePath": ""
+    },
+    {
+      "name": "IoT",
+      "imagePath": ""
+    },
+    {
+      "name": "AI & ML",
+      "imagePath": ""
+    },
+    {
+      "name": "AR & VR",
+      "imagePath": ""
+    },
+    {
+      "name": "Cyber Security",
+      "imagePath": ""
+    },
+    {
+      "name": "Big Data",
+      "imagePath": ""
+    },
+    {
+      "name": "Data Science",
+      "imagePath": ""
+    },
+    {
+      "name": "Digital Marketing",
+      "imagePath": ""
+    },
+    {
+      "name": "Content Writing",
+      "imagePath": ""
+    },
+    {
+      "name": "Video Production",
+      "imagePath": ""
+    },
+    {
+      "name": "Graphic Design",
+      "imagePath": ""
+    },
+    {
+      "name": "Animation",
+      "imagePath": ""
+    },
+    {
+      "name": "Game Development",
+      "imagePath": ""
+    },
+    {
+      "name": "IT Support",
+      "imagePath": ""
+    },
+    {
+      "name": "Staff Augmentation",
+      "imagePath": ""
+    },
+    {
+      "name": "Recruitment",
+      "imagePath": ""
+    },
+    {
+      "name": "Training",
+      "imagePath": ""
+    },
+    {
+      "name": "Business Process Outsourcing",
+      "imagePath": ""
+    },
+    {
+      "name": "Legal Process Outsourcing",
+      "imagePath": ""
+    },
+    {
+      "name": "Healthcare BPO",
+      "imagePath": ""
+    },
+    {
+      "name": "Finance & Accounting BPO",
+      "imagePath": ""
+    }
+  ]
+}
