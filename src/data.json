@@ -100,5 +100,57 @@
       "name": "Cloud Migration & Deployment",
       "imagePath": "src/assets/cloud-migration.jpg"
     }
+  ],
+  "OurIndustries": [
+    {
+      "id":1,
+      "name":"Travel & Hospitality",
+      "imagePath":"https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489aa3c274b240610bc25b_Artboard%201%20copy%203.svg"
+    },
+    {
+      "id":2,
+      "name":"Public Sector",
+      "imagePath":"https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ab9ff57ca6ca29c7e3c_Artboard%201.svg"
+    },
+    {
+      "id":3,
+      "name":"Telecommunication",
+      "imagePath":"https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ac6e39d042f201a88ec_Artboard%201.svg"
+    },
+    {
+      "id":4,
+      "name":"Retail & CPG",
+      "imagePath":"https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ad169e3410b5626a394_Artboard%201.svg"
+    },
+    {
+      "id":5,
+      "name":"Oil, Gas and Energy",
+      "imagePath":"https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ad99f81ad131850be3f_Artboard%201.svg"
+    },
+    {
+      "id":6,
+      "name":"Startups",
+      "imagePath":"https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ae2fbd0f9f3f80fe2a6_Artboard%201.svg"
+    },
+    {
+      "id":7,
+      "name":"Ecommerce",
+      "imagePath":"https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489aef95eee1452d5dea90_Artboard%204.svg"
+    },
+    {
+      "id":8,
+      "name": "Banking & Fintech",
+      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489af814542fbafe9acef2_Artboard%205.svg"
+    },
+    {
+      "id":9,
+      "name":"Healthcare & Pharmaceuticals",
+      "imagePath":"https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489b016ab8e1ba743df7f2_Artboard%201.svg"
+    },
+    {
+      "id":10,
+      "name":"Gaming",
+      "imagePath":"https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489b0a2dc083d31fc5da34_Artboard%201.svg"
+    }
   ]
 }

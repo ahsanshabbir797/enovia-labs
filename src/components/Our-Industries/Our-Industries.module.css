@@ -1,0 +1,79 @@
+.container {
+  color: white;
+  background: rgb(0, 0, 0);
+  padding: 0 5% 10% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  margin-bottom: 8rem;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    grid-template-rows: repeat(5, 1fr); /* Five equal-height rows */
+    gap: 10px; /* Optional: Adds spacing between the cells */
+    width: 100%; /* Set width for the grid container */
+    height: 500px; /* Set height for the grid container */
+}
+
+.card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: #f0f0f0; */
+    /* border: 1px solid #ccc; */
+    gap: 0.5rem;
+}
+
+.card-cell {
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    gap:0.5rem;
+    cursor: pointer;
+}
+
+.img-card {
+  width: 48px;
+  height: 48px;
+  border-radius: 0.4rem;
+  background-color: white;
+}
+
+.industry-image {
+  width: fit-content;
+  height: 100%;
+}
+
+h3 {
+  margin: 0;
+}
+
+.line {
+    position: relative;
+    height: 0.5px; /* Height of the line */
+    width: 95%; /* Width of the line */
+    background-color: #ccc; /* Default color of the line */
+    overflow: hidden; /* Ensures the animated pseudo-element stays within bounds */
+  }
+  
+  .line::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%; /* Same height as the line */
+    width: 0; /* Start with zero width */
+    background-color: #0ebab1; /* Color to show during hover */
+    transition: width 0.5s ease; /* Smooth transition effect */
+  }
+  
+  .card-cell:hover .line::before {
+    width: 100%; /* Fills the entire width on hover */
+  }
+  
