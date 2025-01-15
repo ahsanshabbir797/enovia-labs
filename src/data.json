@@ -1,116 +1,104 @@
 {
   "ourServices": [
     {
+      "id": 1,
       "name": "Web Development",
-      "imagePath": ""
+      "imagePath": "../assets/web-development.jpg"
     },
     {
-      "name": "Mobile Development",
-      "imagePath": ""
-    },
-    {
-      "name": "UI/UX Design",
-      "imagePath": ""
-    },
-    {
-      "name": "QA & Testing",
-      "imagePath": ""
-    },
-    {
-      "name": "IT Consulting",
-      "imagePath": ""
-    },
-    {
-      "name": "Cloud Computing",
-      "imagePath": ""
-    },
-    {
-      "name": "DevOps",
-      "imagePath": ""
-    },
-    {
-      "name": "Blockchain",
-      "imagePath": ""
-    },
-    {
-      "name": "IoT",
-      "imagePath": ""
-    },
-    {
-      "name": "AI & ML",
-      "imagePath": ""
-    },
-    {
-      "name": "AR & VR",
-      "imagePath": ""
-    },
-    {
-      "name": "Cyber Security",
-      "imagePath": ""
-    },
-    {
-      "name": "Big Data",
-      "imagePath": ""
-    },
-    {
-      "name": "Data Science",
-      "imagePath": ""
-    },
-    {
-      "name": "Digital Marketing",
-      "imagePath": ""
-    },
-    {
-      "name": "Content Writing",
-      "imagePath": ""
-    },
-    {
-      "name": "Video Production",
-      "imagePath": ""
-    },
-    {
-      "name": "Graphic Design",
-      "imagePath": ""
-    },
-    {
-      "name": "Animation",
-      "imagePath": ""
-    },
-    {
-      "name": "Game Development",
-      "imagePath": ""
-    },
-    {
-      "name": "IT Support",
-      "imagePath": ""
-    },
-    {
+      "id": 2,
       "name": "Staff Augmentation",
-      "imagePath": ""
+      "imagePath": "../assets/Staff-augmentation.jpg"
     },
     {
-      "name": "Recruitment",
-      "imagePath": ""
+      "id": 3,
+      "name": "Mobile App Development",
+      "imagePath": "../assets/mobile-development.jpg"
     },
     {
-      "name": "Training",
-      "imagePath": ""
+      "id": 4,
+      "name": "UI/UX Design",
+      "imagePath": "../assets/UI-UX.jpg"
     },
     {
-      "name": "Business Process Outsourcing",
-      "imagePath": ""
+      "id": 5,
+      "name": "QA & Testing",
+      "imagePath": "../assets/qa-testing.jpeg"
     },
     {
-      "name": "Legal Process Outsourcing",
-      "imagePath": ""
+      "id": 6,
+      "name": "IT Consulting",
+      "imagePath": "../assets/IT-consulting.jpg"
     },
     {
-      "name": "Healthcare BPO",
-      "imagePath": ""
+      "id": 7,
+      "name": "Cloud Maintenance & Integration",
+      "imagePath": "../assets/cloud-maintenance.jpg"
     },
     {
-      "name": "Finance & Accounting BPO",
-      "imagePath": ""
+      "id": 8,
+      "name": "DevOps",
+      "imagePath": "../assets/devops.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Blockchain & Cryptography",
+      "imagePath": "../assets/crypto.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Information of Things (IoT)",
+      "imagePath": "../assets/iot.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Artificial Intelligence & Machine Learning",
+      "imagePath": "../assets/AI-ML.jpg"
+    },
+    {
+      "id": 12,
+      "name": "AR, VR & XR Gaming",
+      "imagePath": "../assets/AR-VR.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Cyber Security",
+      "imagePath": "../assets/cybersecurity.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Data Analytics & Insights",
+      "imagePath": "../assets/data-analytics.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Digital Marketing",
+      "imagePath": "../assets/digital-marketing.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Graphic Design",
+      "imagePath": "../assets/graphic-designing.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Game Development",
+      "imagePath": "../assets/game-development.jpg"
+    },
+    {
+      "id": 18,
+      "name": "IT Support",
+      "imagePath": "../assets/It-support.jpg"
+    },
+    {
+      "id": 19,
+      "name": "SaaS",
+      "imagePath": "../assets/saas.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Cloud Migration & Deployment",
+      "imagePath": "../assets/cloud-migration"
     }
   ]
 }
