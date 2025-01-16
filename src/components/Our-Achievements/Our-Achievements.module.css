@@ -1,12 +1,10 @@
 .main-container {
   display: flex;
-  /* gap: 5rem; */
-  padding: 0 5% 10% 5%;
+  padding: 10% 5% 10% 5%;
   
 }
 
 .left-container {
-  /* flex: 0 0 60%; */
   flex-grow: 1;
   width: 70%;
 }
@@ -16,7 +14,6 @@
   display: flex;
   flex-wrap: wrap;
   background-color: black;
-  /* flex: 0 0 40%; */
   flex-grow: 1;
 }
 
@@ -69,29 +66,28 @@
   display: flex;
   flex-direction: column;
   gap: 0.1rem;
-  /* border: 1px solid aliceblue; */
 }
 
 .angle-right-icon {
   margin: 0.1rem 0 0 0;
-  color: white; /* Default color */
-  font-size: 1.5rem; /* Ensure no quotes around font size */
+  color: white;
+  font-size: 1.5rem;
   font-weight: 100;
   padding: 0.3rem 0.5rem 0.3rem 0.5rem;
-  transition: color 0.3s ease; /* Smooth transition for color change */
+  transition: color 0.3s ease;
 }
 
 .link-container:hover .angle-right-icon {
-  background-color: #0ebab1; /* New color on hover */
+  background-color: #0ebab1;
 }
 
 .line {
   position: relative;
-  height: 0.5px; /* Height of the line */
-  width: 100%; /* Width of the line */
-  background-color: black; /* Initially invisible */
-  overflow: hidden; /* Ensures the animated pseudo-element stays within bounds */
-  transition: background-color 0.5s ease; /* Smooth transition for visibility */
+  height: 0.5px;
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+  transition: background-color 0.5s ease;
 }
 
 .line::before {
@@ -99,21 +95,21 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%; /* Same height as the line */
-  width: 0; /* Start with zero width */
-  background-color: #0ebab1; /* Color to show during hover */
-  transition: width 0.5s ease; /* Smooth transition effect */
+  height: 100%;
+  width: 0;
+  background-color: #0ebab1;
+  transition: width 0.5s ease;
 }
 
 .link-container:hover .line::before {
-  width: 100%; /* Fills the entire width on hover */
+  width: 100%;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Create two equal-width columns */
-  grid-template-rows: repeat(2, 1fr); /* Create two equal-height rows */
-  gap: 10px; /* Add spacing between grid items */
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px; 
   padding: 20px;
 }
 
@@ -127,12 +123,12 @@
 }
 
 .grid-item > h1 {
-    margin: 0;
+    margin: 0 0 0.7rem 0;
     color: #0ebab1;
 }
 
 .grid-item > p {
     margin: 0;
-    font-size: 1rem;
-    /* color: #0ebab1; */
+    font-size: 1.5rem;
+    font-weight: 600;
 }

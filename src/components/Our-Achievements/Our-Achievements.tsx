@@ -10,9 +10,9 @@ function OurAchievements() {
     <div className={styles["main-container"]}>
       <div className={styles["left-container"]}>
         <p className={styles["category"]}>PIONEERING INNOVATION AND TRUST</p>
-        <h1 className={styles["main-heading"]}>EnoviaLabs Achievements</h1>
+        <h1 className={styles["main-heading"]}>Enovia Labs Achievements</h1>
         <p className={styles["paragraph-text"]}>
-          At EnoviaLabs, we take pride in empowering businesses worldwide with
+          At Enovia Labs, we take pride in empowering businesses worldwide with
           innovative solutions. We bring an unwavering commitment to excellence,
           backed by a global presence.
         </p>
