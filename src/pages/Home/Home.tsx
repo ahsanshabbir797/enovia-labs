@@ -4,6 +4,7 @@ import styles from "./Home.module.css";
 import OurServices from "../../components/Our-Services/Our-Services";
 import OurIndustries from "../../components/Our-Industries/Our-Industries";
 import OurInsights from "../../components/Our-Insights/OurInsights";
+import OurAchievements from "../../components/Our-Achievements/Our-Achievements";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <OurServices />
         <OurIndustries />
         <OurInsights />
+        <OurAchievements />
       </div>
     </div>
   );

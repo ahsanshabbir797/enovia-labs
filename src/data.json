@@ -217,5 +217,23 @@
       "image": "src/assets/next.jpg",
       "link": "https://medium.com/@sanjay_joshi/top-next-js-tools-for-next-gen-developers-4b536c657f6a"
     }
+  ],
+  "OurAchievements": [
+    {
+      "label":"Successful Projects",
+      "amount": "3,000+"
+    },
+    {
+      "label":"Countries Supported",
+      "amount": "23+"
+    },
+    {
+      "label":"Active Clients",
+      "amount": "236+"
+    },
+    {
+      "label":"Years of Enablement Experience",
+      "amount": "15+"
+    }
   ]
 }
