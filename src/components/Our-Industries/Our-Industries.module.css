@@ -56,10 +56,10 @@ h3 {
 
 .line {
     position: relative;
-    height: 0.5px; /* Height of the line */
-    width: 95%; /* Width of the line */
-    background-color: #ccc; /* Default color of the line */
-    overflow: hidden; /* Ensures the animated pseudo-element stays within bounds */
+    height: 0.5px;
+    width: 95%; 
+    background-color: #ccc; 
+    overflow: hidden; 
   }
   
   .line::before {
@@ -67,13 +67,13 @@ h3 {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%; /* Same height as the line */
-    width: 0; /* Start with zero width */
-    background-color: #0ebab1; /* Color to show during hover */
-    transition: width 0.5s ease; /* Smooth transition effect */
+    height: 100%; 
+    width: 0; 
+    background-color: #0ebab1;
+    transition: width 0.5s ease;
   }
   
   .card-cell:hover .line::before {
-    width: 100%; /* Fills the entire width on hover */
+    width: 100%; 
   }
   
