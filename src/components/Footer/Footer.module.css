@@ -1,0 +1,146 @@
+.footer {
+    padding: 60px 20px;
+    background-color: #000000; 
+    color: #e6f1ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .footer .footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 40px;
+  }
+  
+  .footer h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .footer p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #b0c7d1; 
+    line-height: 1.5;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #0ebab1; 
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #0ebab1aa;
+  }
+  
+  .footer  {
+    flex: 1;
+  }
+  
+  .footer .company ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer .company ul li {
+    margin-bottom: 12px;
+  }
+  
+  .footer .company ul li a {
+    font-size: 16px;
+  }
+  
+  .footer .address {
+    flex: 1;
+  }
+  
+  .footer .address p,
+  .footer .address a {
+    margin-bottom: 10px;
+  }
+  
+  .footer .address h4 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  .footer .footerDivRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .footer .footerLogDiv img {
+    width: 120px;
+    height: auto;
+  }
+  
+  .footer .social {
+    flex: 1;
+  }
+  
+  .footer .social .socialIcons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer .social .socialIcons a {
+    font-size: 20px;
+    color: #0ebab1;
+    transition: color 0.3s ease;
+  }
+  
+  .footer .social .socialIcons a:hover {
+    color: #0ebab1aa;
+  }
+  .tnc{
+    display: flex;
+    align-items: center;
+    gap:25px;
+  }
+  .tnc > span:hover{
+    cursor: pointer;
+    color: #0ebab1;
+  }
+  .footer-list {
+    display: flex !important;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .copyRight{
+    width:45%;
+  }
+
+  
+  @media (max-width: 768px) {
+    .footer .footerContent {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .footer .company, 
+    .footer .address, 
+    .footer .footerDivRight {
+      margin-bottom: 25px;
+      width: 100%;
+    }
+  
+    .footer .social .socialIcons {
+      justify-content: flex-start;
+    }
+  }
+  
