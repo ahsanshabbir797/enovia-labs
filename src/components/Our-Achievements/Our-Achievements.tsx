@@ -28,7 +28,6 @@ function OurAchievements() {
             />
           </div>
         </a>
-        {/* </div> */}
       </div>
       <div className={styles["right-container"]}>
         <div className={styles["grid-container"]}>
