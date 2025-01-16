@@ -1,0 +1,139 @@
+.main-container {
+  display: flex;
+  /* gap: 5rem; */
+  padding: 0 5% 10% 5%;
+  
+}
+
+.left-container {
+  /* flex: 0 0 60%; */
+  flex-grow: 1;
+  width: 70%;
+}
+
+.right-container {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  /* flex: 0 0 40%; */
+  flex-grow: 1;
+}
+
+.category {
+  color: #0ebab1;
+  text-align: left;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0px 0px;
+  padding: 5% 0 0 0;
+}
+
+.main-heading {
+  color: white;
+  text-align: left;
+  margin: 0.6rem 0 1.9rem 0;
+}
+
+.paragraph-text {
+  color: white;
+  font-size: 1.3rem;
+  text-align: left;
+  width: 55%;
+  margin: 0 0 2rem 0;
+}
+
+.link-wrapper {
+  display: inline-block;
+  text-align: left;
+}
+
+.link-container {
+  color: white;
+  display: inline-flex;
+  font-size: 1.2rem;
+  font-weight: 800;
+  gap: 1rem;
+  align-items: center;
+  justify-content: left;
+  cursor: pointer;
+  width: 100%;
+}
+
+.link-container:hover {
+  color: white;
+}
+
+.link-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  /* border: 1px solid aliceblue; */
+}
+
+.angle-right-icon {
+  margin: 0.1rem 0 0 0;
+  color: white; /* Default color */
+  font-size: 1.5rem; /* Ensure no quotes around font size */
+  font-weight: 100;
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.link-container:hover .angle-right-icon {
+  background-color: #0ebab1; /* New color on hover */
+}
+
+.line {
+  position: relative;
+  height: 0.5px; /* Height of the line */
+  width: 100%; /* Width of the line */
+  background-color: black; /* Initially invisible */
+  overflow: hidden; /* Ensures the animated pseudo-element stays within bounds */
+  transition: background-color 0.5s ease; /* Smooth transition for visibility */
+}
+
+.line::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%; /* Same height as the line */
+  width: 0; /* Start with zero width */
+  background-color: #0ebab1; /* Color to show during hover */
+  transition: width 0.5s ease; /* Smooth transition effect */
+}
+
+.link-container:hover .line::before {
+  width: 100%; /* Fills the entire width on hover */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Create two equal-width columns */
+  grid-template-rows: repeat(2, 1fr); /* Create two equal-height rows */
+  gap: 10px; /* Add spacing between grid items */
+  padding: 20px;
+}
+
+.grid-item {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.grid-item > h1 {
+    margin: 0;
+    color: #0ebab1;
+}
+
+.grid-item > p {
+    margin: 0;
+    font-size: 1rem;
+    /* color: #0ebab1; */
+}
