@@ -103,54 +103,119 @@
   ],
   "OurIndustries": [
     {
-      "id":1,
-      "name":"Travel & Hospitality",
-      "imagePath":"https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489aa3c274b240610bc25b_Artboard%201%20copy%203.svg"
+      "id": 1,
+      "name": "Travel & Hospitality",
+      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489aa3c274b240610bc25b_Artboard%201%20copy%203.svg"
     },
     {
-      "id":2,
-      "name":"Public Sector",
-      "imagePath":"https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ab9ff57ca6ca29c7e3c_Artboard%201.svg"
+      "id": 2,
+      "name": "Public Sector",
+      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ab9ff57ca6ca29c7e3c_Artboard%201.svg"
     },
     {
-      "id":3,
-      "name":"Telecommunication",
-      "imagePath":"https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ac6e39d042f201a88ec_Artboard%201.svg"
+      "id": 3,
+      "name": "Telecommunication",
+      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ac6e39d042f201a88ec_Artboard%201.svg"
     },
     {
-      "id":4,
-      "name":"Retail & CPG",
-      "imagePath":"https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ad169e3410b5626a394_Artboard%201.svg"
+      "id": 4,
+      "name": "Retail & CPG",
+      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ad169e3410b5626a394_Artboard%201.svg"
     },
     {
-      "id":5,
-      "name":"Oil, Gas and Energy",
-      "imagePath":"https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ad99f81ad131850be3f_Artboard%201.svg"
+      "id": 5,
+      "name": "Oil, Gas and Energy",
+      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ad99f81ad131850be3f_Artboard%201.svg"
     },
     {
-      "id":6,
-      "name":"Startups",
-      "imagePath":"https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ae2fbd0f9f3f80fe2a6_Artboard%201.svg"
+      "id": 6,
+      "name": "Startups",
+      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ae2fbd0f9f3f80fe2a6_Artboard%201.svg"
     },
     {
-      "id":7,
-      "name":"Ecommerce",
-      "imagePath":"https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489aef95eee1452d5dea90_Artboard%204.svg"
+      "id": 7,
+      "name": "Ecommerce",
+      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489aef95eee1452d5dea90_Artboard%204.svg"
     },
     {
-      "id":8,
+      "id": 8,
       "name": "Banking & Fintech",
       "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489af814542fbafe9acef2_Artboard%205.svg"
     },
     {
-      "id":9,
-      "name":"Healthcare & Pharmaceuticals",
-      "imagePath":"https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489b016ab8e1ba743df7f2_Artboard%201.svg"
+      "id": 9,
+      "name": "Healthcare & Pharmaceuticals",
+      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489b016ab8e1ba743df7f2_Artboard%201.svg"
     },
     {
-      "id":10,
-      "name":"Gaming",
-      "imagePath":"https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489b0a2dc083d31fc5da34_Artboard%201.svg"
+      "id": 10,
+      "name": "Gaming",
+      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489b0a2dc083d31fc5da34_Artboard%201.svg"
+    }
+  ],
+  "OurInsights": [
+    {
+      "id": 1,
+      "type": "Case Study",
+      "title": "Handling Multi DC/Region with Apache HBase",
+      "image": "src/assets/apache.jpg",
+      "link": "https://blog.flipkart.tech/case-study-handling-multi-dc-region-with-apache-hbase-3dbf187a842e"
+    },
+    {
+      "id": 2,
+      "type": "Blogs",
+      "title": "Dos & Dont's of Software Development: A Comprehensive Guide",
+      "image": "src/assets/dosanddonts.jpg",
+      "link": "https://itnext.io/my-dos-and-donts-of-software-architecture-63f707571e47"
+    },
+    {
+      "id": 3,
+      "type": "Blogs",
+      "title": "Accelerate Your Launch: The Essentials of Rapid Mobile App Development",
+      "image": "src/assets/mobiledev.jpg",
+      "link": "https://www.netguru.com/blog/rapid-mobile-app-development?ref=dailydev"
+    },
+    {
+      "id": 4,
+      "type": "Case Study",
+      "title": "Segregation of Duties Oracle ERP Cloud",
+      "image": "src/assets/erp.png",
+      "link": "https://securityboulevard.com/2024/04/case-study-segregation-of-duties-oracle-erp-cloud/"
+    },
+    {
+      "id": 5,
+      "type": "Case Study",
+      "title": "Building an interaction design portfolio",
+      "image": "src/assets/interactiondesign.jpg",
+      "link": "https://medium.com/design-bootcamp/building-an-interaction-design-portfolio-a-case-study-9560179e9bab"
+    },
+    {
+      "id": 6,
+      "type": "Blogs",
+      "title": "Gen AI, APIs, and the Future of Development",
+      "image": "src/assets/genai.jpg",
+      "link": "https://nordicapis.com/gen-ai-apis-and-the-future-of-development/"
+    },
+    {
+      "id": 7,
+      "type": "Case Study",
+      "title": "Using Indicators of Behavior (IoB) Analysis for IoT data",
+      "image": "src/assets/dataanlysisofiot.jpg",
+      "link": "https://www.thatdot.com/blog/using-indicators-of-behavior-iob-analysis-for-iot-data/"
+    },
+    {
+      "id": 8,
+      "type": "Blogs",
+      "title": "Project Management Plan: Purpose and Examples",
+      "image": "src/assets/projectmanagement.jpg",
+      "link": "https://dzone.com/articles/project-management-plan-purpose-and-examples"
+    },
+    {
+      "id": 9,
+      "type": "Blogs",
+      "title": "Top Next.js Tools for Next-Gen Developers",
+      "image": "src/assets/next.jpg",
+      "link": "https://medium.com/@sanjay_joshi/top-next-js-tools-for-next-gen-developers-4b536c657f6a"
     }
   ]
 }

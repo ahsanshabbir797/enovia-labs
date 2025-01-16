@@ -3,6 +3,7 @@ import softwareDevelopment from "../../assets/software-development.mp4";
 import styles from "./Home.module.css";
 import OurServices from "../../components/Our-Services/Our-Services";
 import OurIndustries from "../../components/Our-Industries/Our-Industries";
+import OurInsights from "../../components/Our-Insights/OurInsights";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         />
         <OurServices />
         <OurIndustries />
+        <OurInsights />
       </div>
     </div>
   );
