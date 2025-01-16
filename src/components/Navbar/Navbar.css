@@ -12,12 +12,9 @@
     z-index: 1000; 
 }
 
-/* .logo-text {
-} */
 
 .logo-text-enovia {
-  font-size: 32px; /* Adjust this value as needed */
-  /* font-weight: bold; */
+  font-size: 32px; 
 }
 
 .logo-text-labs {
@@ -25,15 +22,15 @@
     font-size: 18px;
 }
 
-ul {
-    list-style-type: none; /* Removes the bullets */
-    padding: 0; /* Removes the padding */
+.navbar-items {
+    list-style-type: none; 
+    padding: 0; 
     cursor: pointer;
   }
   
-  ul li {
-    display: inline; /* Makes the list items inline */
-    margin-right: 10px; /* Optional: adds space between items */
+  .navbar-items> li {
+    display: inline; 
+    margin-right: 10px;
     padding: 24px 11px;
   }
 
@@ -42,9 +39,8 @@ ul {
     transition: transform 0.3s ease-in-out;
   }
   
-  /* Rotate the caret when active */
   .rotate {
-    transform: rotate(180deg); /* Rotates the icon 180 degrees */
+    transform: rotate(180deg); 
   }
 
   .right-corner-option {
