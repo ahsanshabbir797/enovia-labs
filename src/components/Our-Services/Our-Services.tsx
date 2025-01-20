@@ -22,13 +22,15 @@ function OurServices() {
       <div className={styles["card-container"]}>
         {displayedCards.map((service) => {
           return (
-            <div
-              className={styles["card"]}
-              key={service.id}
-              style={{ backgroundImage: `url("${service.imagePath}")` }}
-            >
-              <h2>{service.name}</h2>
-            </div>
+            service.show && (
+              <div
+                className={styles["card"]}
+                key={service.id}
+                style={{ backgroundImage: `url("${service.imagePath}")` }}
+              >
+                <h2>{service.name}</h2>
+              </div>
+            )
           );
         })}
       </div>
