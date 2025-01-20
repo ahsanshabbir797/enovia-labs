@@ -3,102 +3,122 @@
     {
       "id": 1,
       "name": "Web Development",
-      "imagePath": "src/assets/web-development.jpg"
+      "imagePath": "src/assets/web-development.jpg",
+      "show": true
     },
     {
       "id": 2,
       "name": "Staff Augmentation",
-      "imagePath": "src/assets/Staff-augmentation.jpg"
+      "imagePath": "src/assets/Staff-augmentation.jpg",
+      "show": true
     },
     {
       "id": 3,
       "name": "Mobile App Development",
-      "imagePath": "src/assets/mobile-development.jpg"
+      "imagePath": "src/assets/mobile-development.jpg",
+      "show": true
     },
     {
       "id": 4,
       "name": "UI/UX Design",
-      "imagePath": "src/assets/UI-UX.jpg"
+      "imagePath": "src/assets/UI-UX.jpg",
+      "show": true
     },
     {
       "id": 5,
       "name": "QA & Testing",
-      "imagePath": "src/assets/qa-testing.jpeg"
+      "imagePath": "src/assets/qa-testing.jpeg",
+      "show": false
     },
     {
       "id": 6,
       "name": "IT Consulting",
-      "imagePath": "src/assets/IT-consulting.jpg"
+      "imagePath": "src/assets/IT-consulting.jpg",
+      "show": true
     },
     {
       "id": 7,
       "name": "Cloud Maintenance & Integration",
-      "imagePath": "src/assets/cloud-maintenance.jpg"
+      "imagePath": "src/assets/cloud-maintenance.jpg",
+      "show": false
     },
     {
       "id": 8,
       "name": "DevOps",
-      "imagePath": "src/assets/devops.jpg"
+      "imagePath": "src/assets/devops.jpg",
+      "show": true
     },
     {
       "id": 9,
       "name": "Blockchain & Cryptography",
-      "imagePath": "src/assets/crypto.jpg"
+      "imagePath": "src/assets/crypto.jpg",
+      "show": false
     },
     {
       "id": 10,
       "name": "Internet of Things (IoT)",
-      "imagePath": "src/assets/iot.jpg"
+      "imagePath": "src/assets/iot.jpg",
+      "show": false
     },
     {
       "id": 11,
       "name": "Artificial Intelligence & Machine Learning",
-      "imagePath": "src/assets/AI-ML.jpg"
+      "imagePath": "src/assets/AI-ML.jpg",
+      "show": false
     },
     {
       "id": 12,
       "name": "AR, VR & XR Gaming",
-      "imagePath": "src/assets/AR-VR.jpg"
+      "imagePath": "src/assets/AR-VR.jpg",
+      "show": false
     },
     {
       "id": 13,
       "name": "Cyber Security",
-      "imagePath": "src/assets/cybersecurity.jpg"
+      "imagePath": "src/assets/cybersecurity.jpg",
+      "show": false
     },
     {
       "id": 14,
       "name": "Data Analytics & Insights",
-      "imagePath": "src/assets/data-analytics.jpg"
+      "imagePath": "src/assets/data-analytics.jpg",
+      "show": true
     },
     {
       "id": 15,
       "name": "Digital Marketing",
-      "imagePath": "src/assets/digital-marketing.jpg"
+      "imagePath": "src/assets/digital-marketing.jpg",
+      "show": true
     },
     {
       "id": 16,
       "name": "Graphic Design",
-      "imagePath": "src/assets/graphic-designing.jpg"
+      "imagePath": "src/assets/graphic-designing.jpg",
+      "show": true
     },
     {
       "id": 17,
       "name": "Game Development",
-      "imagePath": "src/assets/game-development.jpg"
+      "imagePath": "src/assets/game-development.jpg",
+      "show": false
     },
     {
       "id": 18,
       "name": "IT Support",
-      "imagePath": "src/assets/It-support.jpg"
+      "imagePath": "src/assets/It-support.jpg",
+      "show": false
     },
     {
       "id": 19,
       "name": "SaaS",
-      "imagePath": "src/assets/saas.jpg"
+      "imagePath": "src/assets/saas.jpg",
+      "show": false
     },
     {
       "id": 20,
       "name": "Cloud Migration & Deployment",
-      "imagePath": "src/assets/cloud-migration.jpg"
+      "imagePath": "src/assets/cloud-migration.jpg",
+      "show": false
     }
   ],
   "OurIndustries": [
@@ -220,20 +240,20 @@
   ],
   "OurAchievements": [
     {
-      "label":"Successful Projects",
-      "amount": "3,000+"
+      "label": "Successful Projects",
+      "amount": "30+"
     },
     {
-      "label":"Countries Supported",
-      "amount": "23+"
-    },
-    {
-      "label":"Active Clients",
-      "amount": "236+"
-    },
-    {
-      "label":"Years of Enablement Experience",
+      "label": "Teams Supported",
       "amount": "15+"
+    },
+    {
+      "label": "Active Clients",
+      "amount": "10+"
+    },
+    {
+      "label": "Years of Enablement Experience",
+      "amount": "3+"
     }
   ]
 }
