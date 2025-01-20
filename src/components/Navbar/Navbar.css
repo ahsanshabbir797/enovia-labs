@@ -12,6 +12,9 @@
     z-index: 1000; 
 }
 
+.logo-text {
+  cursor: pointer;
+}
 
 .logo-text-enovia {
   font-size: 32px; 
@@ -38,6 +41,14 @@
     margin-left: 5px;
     transition: transform 0.3s ease-in-out;
   }
+
+  .link-text {
+    color: white;
+  }
+
+  .link-text:hover {
+    color: white;
+  }
   
   .rotate {
     transform: rotate(180deg); 
@@ -57,14 +68,13 @@
 .nav-button:hover {
   background-color: #0ebab1;
   color: white;
-  border:none
 }
+
 .nav-button:active {
   background-color: #0ebab1;
   color: white;
   border:none
 }
-
 
 .nav-right-option {
   cursor: pointer;
