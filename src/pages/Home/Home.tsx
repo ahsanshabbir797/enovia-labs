@@ -6,7 +6,7 @@ import OurIndustries from "../../components/Our-Industries/Our-Industries";
 import OurInsights from "../../components/Our-Insights/OurInsights";
 import OurAchievements from "../../components/Our-Achievements/Our-Achievements";
 
-export default function Home() {
+function HomePage() {
   return (
     <div className={styles.homePage}>
       <div className={styles.videoContainer}>
@@ -23,3 +23,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default HomePage

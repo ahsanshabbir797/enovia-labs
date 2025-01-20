@@ -2,19 +2,21 @@ import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 type MenuItem = {
   option: string;
   isOpen: boolean;
+  routeLink:string;
 };
 
 const Navbar = () => {
   const [menuItems, setMenuItems] = useState<MenuItem[]>([
-    { option: "Home", isOpen: false },
-    { option: "About Us", isOpen: false },
-    { option: "Services", isOpen: false },
-    { option: "Projects", isOpen: false },
-    { option: "Contact Us", isOpen: false },
+    { option: "Home",routeLink:"/", isOpen: false },
+    { option: "About Us",routeLink:"/about-us", isOpen: false },
+    { option: "Services",routeLink:"/services", isOpen: false },
+    { option: "Projects",routeLink:"/projects", isOpen: false },
+    { option: "Contact Us",routeLink:"/contact-us", isOpen: false },
   ]);
 
   const [rightMenu, setRightMenu] = useState({
@@ -38,18 +40,13 @@ const Navbar = () => {
         <ul className="navbar-items">
           {menuItems.map((item, index) => (
             <li key={index} onClick={() => handleToggle(index)}>
-              {item.option}{" "}
-              <FontAwesomeIcon
-                icon={faAngleDown}
-                className={`caret-icon ${item.isOpen ? "rotate" : ""}`}
-              />
+              <Link className="link-text" to={item.routeLink}>{item.option}</Link>
             </li>
           ))}
         </ul>
       </div>
       <div className="buttons-container">
-        <button className="nav-button">Explore Careers</button>
-        <button className="nav-button">Lets Talk Business</button>
+        <button className="nav-button"><Link className="link-text" to="/contact-us">Lets Talk Business</Link></button>
       </div>
       <div
         className="nav-right-option"

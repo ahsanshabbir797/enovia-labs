@@ -1,3 +1,5 @@
-export default function AboutUs() {
-  return <div>AboutUs</div>;
+function AboutUsPage() {
+  return <h1>AboutUs</h1>;
 }
+
+export default AboutUsPage;
