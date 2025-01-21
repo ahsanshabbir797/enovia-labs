@@ -19,7 +19,7 @@ const OurInsights: React.FC = () => {
 
       <div className={styles.rightContent}>
         {cardData.map((card, index) => (
-          <a href={card.link} target="_blank">
+          <a href={card.link} target="_blank" key={card.id}>
             <div key={index} className={styles.card}>
               <img src={card.image} alt={card.title} />
               <div className={styles.cardContent}>
