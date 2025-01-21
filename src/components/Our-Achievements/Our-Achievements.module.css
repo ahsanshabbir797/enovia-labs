@@ -1,7 +1,6 @@
 .main-container {
   display: flex;
   padding: 10% 5% 7% 5%;
-  
 }
 
 .left-container {
@@ -22,7 +21,7 @@
   text-align: left;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 1.7em;
   font-weight: 400;
   margin: 0px 0px;
   padding: 5% 0 0 0;
@@ -90,6 +89,10 @@
   transition: background-color 0.5s ease;
 }
 
+.link-flex {
+  display: flex;
+}
+
 .line::before {
   content: "";
   position: absolute;
@@ -107,28 +110,98 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 10px; 
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust columns based on screen size */
+  gap: 20px; /* Consistent spacing between grid items */
   padding: 20px;
 }
 
 .grid-item {
+  background-color: #1a1a1a; /* Optional: Add background for visibility */
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
+  padding: 1rem; /* Add padding for better spacing within items */
+  text-align: center;
 }
 
 .grid-item > h1 {
-    margin: 0 0 0.7rem 0;
-    color: #0ebab1;
+  margin: 0 0 0.5rem 0;
+  color: #0ebab1;
+  font-size: 2rem; /* Adjust font size for better readability */
 }
 
 .grid-item > p {
-    margin: 0;
-    font-size: 1.5rem;
-    font-weight: 600;
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+
+@media screen and (max-width: 640px) {
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category {
+    font-size: 1.3em;
+    text-align: center;
+  }
+
+  .main-heading {
+    text-align: center;
+    margin:1.9rem 0 1.9rem 0;
+  }
+
+  .paragraph-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .link-flex {
+    justify-content: center;
+  }
+}
+
+/* Medium devices (md) - 641px to 768px */
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .category {
+    font-size: 1.4em;
+  }
+
+  .main-heading {
+   font-size: 2.3em;
+   font-weight: 700;
+  }
+}
+
+/* Large devices (lg) - 769px to 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .category {
+    font-size: 1.4em;
+  }
+  
+}
+
+/* Extra large devices (xl) - 1025px to 1280px */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .category {
+    font-size: 1.5em;
+  }
+
+  .main-heading {
+    font-size: 3.0em;
+    font-weight: 700;
+   }
+}
+
+/* 2xl devices - 1281px to 1536px */
+@media screen and (min-width: 1281px) and (max-width: 1536px) {
+}
+
+/* Beyond 2xl - Above 1536px */
+@media screen and (min-width: 1537px) {
 }

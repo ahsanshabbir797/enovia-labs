@@ -16,7 +16,7 @@ function OurAchievements() {
           innovative solutions. We bring an unwavering commitment to excellence,
           backed by a global presence.
         </p>
-        <a onClick={() => null} style={{ display: "flex" }}>
+        <a onClick={() => null} className={styles["link-flex"]}>
           <div className={styles["link-container"]}>
             <p className={styles["link-text"]}>
               Get in Touch

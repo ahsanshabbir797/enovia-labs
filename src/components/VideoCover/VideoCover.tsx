@@ -52,7 +52,7 @@ export default function VideoCover({
         Your browser does not support the video tag.
       </video>
       <header className={styles.overlayContent}>
-        {header && <h1 className={styles.header}>{header}</h1>}
+        {header && <h1 className={styles.mainHeader}>{header}</h1>}
         {description && <p className={styles.description}>{description}</p>}
       </header>
     </section>

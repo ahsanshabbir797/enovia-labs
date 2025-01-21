@@ -18,7 +18,7 @@
   text-align: left;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-weight: 400;
   margin: 0px 0px;
   padding: 5% 0 0 0;
@@ -43,8 +43,8 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 330px;
-  height: 320px;
+  width: 22rem;
+  height: 20rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -56,8 +56,8 @@ h2 {
   cursor: pointer;
 }
 
-.card:hover::after{
-    background: rgba(0, 0, 0, 0.5);
+.card:hover::after {
+  background: rgba(0, 0, 0, 0.5);
 }
 .card::after {
   border-radius: 0.4rem;
@@ -82,4 +82,76 @@ h2 {
 .show-more-button:hover {
   background-color: black;
   color: #0ebab1b0;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    padding: 4% 5% 9% 5%;
+  }
+
+  h1 {
+    font-size: x-large;
+  }
+
+  .card {
+    width: 94%;
+    height: 11rem;
+    max-width: 82%;
+    max-height: 14rem;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  .show-more-button {
+    padding: 0.3rem 1rem;
+  }
+}
+
+/* Medium devices (md) - 641px to 768px */
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  h1 {
+    font-size: 2.3em;
+  }
+
+  .main-heading {
+    font-size: 1.4em;
+  }
+}
+
+/* Large devices (lg) - 769px to 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  h1 {
+    font-size: 2.3em;
+    font-weight: 700;
+  }
+
+  .main-heading {
+    font-size: 1.5em;
+  }
+}
+
+/* Extra large devices (xl) - 1025px to 1280px */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .container {
+    padding: 4% 5% 8% 5%;
+  }
+
+  .main-heading {
+    font-size: 1.5em;
+  }
+
+  h1 {
+    font-size: 3.0em;
+    font-weight: 700;
+  }
+}
+
+/* 2xl devices - 1281px to 1536px */
+@media screen and (min-width: 1281px) and (max-width: 1536px) {
+}
+
+/* Beyond 2xl - Above 1536px */
+@media screen and (min-width: 1537px) {
 }

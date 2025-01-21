@@ -1,147 +1,194 @@
 .footer {
-    padding: 60px 20px;
-    background: linear-gradient(0deg, #004c40 18%, rgba(0,0,0,1) 98%, rgba(0,0,0,1) 100%);
-    color: #e6f1ff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: auto;
-    font-family: "Poppins", sans-serif;
+  padding: 60px 20px;
+  background: linear-gradient(
+    0deg,
+    #004c40 18%,
+    rgba(0, 0, 0, 1) 98%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: #e6f1ff;
+  margin-top: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-text {
+  align-items: left;
+}
+
+.footer .footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.footer p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #b0c7d1;
+  line-height: 1.5;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #0ebab1;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #0ebab1aa;
+}
+
+.footer .company ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .company ul li {
+  margin-bottom: 12px;
+}
+
+.footer .company ul li a {
+  font-size: 16px;
+}
+
+.address {
+  margin-top: 3rem;
+}
+
+.footerDivRight {
+  margin-top: 3rem;
+}
+
+.footer .address p,
+.footer .address a {
+  margin-bottom: 10px;
+}
+
+.footer .address h4 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.footer .footerDivRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer .social .socialIcons {
+  display: flex;
+  gap: 15px;
+}
+
+.footer .social .socialIcons a {
+  font-size: 20px;
+  color: #0ebab1;
+  transition: color 0.3s ease;
+}
+
+.footer .social .socialIcons a:hover {
+  color: #0ebab1aa;
+}
+
+.copyRight {
+  background-color: #004c40;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-list {
+  display: flex !important;
+  flex-direction: row !important;
+  margin-top: 2rem;
+}
+
+/* Small devices (sm) - Up to 640px */
+@media screen and (max-width: 640px) {
+  .footer {
+    padding: 5rem 2rem 1rem 2rem;
   }
-  
+
   .footer .footerContent {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.1rem;
   }
-  
-  .footer h3 {
-    font-size: 20px;
-    margin-bottom: 20px;
-    color: #ffffff;
-  }
-  
-  .footer p {
-    font-size: 16px;
-    margin-bottom: 15px;
-    color: #b0c7d1; 
-    line-height: 1.5;
-  }
-  
-  .footer a {
-    text-decoration: none;
-    color: #0ebab1; 
-    transition: color 0.3s ease;
-  }
-  
-  .footer a:hover {
-    color: #0ebab1aa;
-  }
-  
-  .footer  {
-    flex: 1;
-  }
-  
-  .footer .company ul {
-    list-style: none;
-    padding: 0;
-  }
-  
+
   .footer .company ul li {
-    margin-bottom: 12px;
+    text-align: center;
   }
-  
-  .footer .company ul li a {
-    font-size: 16px;
+
+  .footer .social .socialIcons {
+    justify-content: center;
   }
-  
-  .footer .address {
-    flex: 1;
+
+  .logo-text {
+    align-items: center;
   }
-  
-  .footer .address p,
-  .footer .address a {
-    margin-bottom: 10px;
+}
+
+/* Medium devices (md) - 641px to 768px */
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .footer .footerContent {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.8rem;
   }
-  
-  .footer .address h4 {
-    margin-top: 25px;
-    margin-bottom: 15px;
-    color: #ffffff;
-  }
-  
+
   .footer .footerDivRight {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-  }
-  
-  .footer .footerLogDiv img {
-    width: 120px;
-    height: auto;
-  }
-  
-  .footer .social {
-    flex: 1;
-  }
-  
-  .footer .social .socialIcons {
-    display: flex;
-    gap: 15px;
-  }
-  
-  .footer .social .socialIcons a {
-    font-size: 20px;
-    color: #0ebab1;
-    transition: color 0.3s ease;
-  }
-  
-  .footer .social .socialIcons a:hover {
-    color: #0ebab1aa;
-  }
-  .tnc{
-    display: flex;
     align-items: center;
-    gap:25px;
-  }
-  .tnc > span:hover{
-    cursor: pointer;
-    color: #0ebab1;
-  }
-  .footer-list {
-    display: flex !important;
-    flex-direction: row;
     gap: 20px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  .copyRight{
-    background-color: #004c40;
-    color: white;
   }
 
-  
-  @media (max-width: 768px) {
-    .footer .footerContent {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .footer .company, 
-    .footer .address, 
-    .footer .footerDivRight {
-      margin-bottom: 25px;
-      width: 100%;
-    }
-  
-    .footer .social .socialIcons {
-      justify-content: flex-start;
-    }
+  .footer {
+    padding: 5rem 2rem 1rem 2rem;
   }
-  
+
+  .footer .company,
+  .footer .address,
+  .footer .footerDivRight {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
+
+/* Large devices (lg) - 769px to 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .footer .footerContent {
+    justify-content: space-around;
+  }
+}
+
+/* Extra large devices (xl) - 1025px to 1280px */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .footer .footerContent {
+    justify-content: space-around;
+  }
+}
+
+/* 2xl devices - 1281px to 1536px */
+@media screen and (min-width: 1281px) and (max-width: 1536px) {
+  .footer .footerContent {
+    max-width: 1100px;
+  }
+}
+
+/* Beyond 2xl - Above 1536px */
+@media screen and (min-width: 1537px) {
+  .footer .footerContent {
+    max-width: 1200px;
+  }
+}
