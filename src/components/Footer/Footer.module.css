@@ -7,9 +7,6 @@
     rgba(0, 0, 0, 1) 100%
   );
   color: #e6f1ff;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
   margin-top: auto;
   font-family: "Poppins", sans-serif;
 }
@@ -22,7 +19,6 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  /* max-width: 1200px; */
   width: 100%;
   margin: 0 auto;
 }
@@ -113,7 +109,7 @@
 
 .footer-list {
   display: flex !important;
-  flex-direction: row;
+  flex-direction: row !important;
   margin-top: 2rem;
 }
 
@@ -166,11 +162,6 @@
   .footer .footerDivRight {
     margin-bottom: 20px;
     width: 100%;
-  }
-
-  .footer-list {
-    /* display: flex;
-    gap: "20px"; */
   }
 }
 

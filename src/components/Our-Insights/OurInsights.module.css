@@ -17,8 +17,7 @@
 
 .leftContent {
   flex: 1;
-  /* min-width: 300px; */
-  max-width: 40%;
+  max-width: 30%;
 }
 
 .featuredTitle {

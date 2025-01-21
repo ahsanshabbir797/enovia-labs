@@ -17,9 +17,7 @@ const Footer = () => {
               <span className="logo-text-enovia">Enovia</span>
               <span className="logo-text-labs">Labs</span>
             </div>
-            <ul
-              className="footer-list"
-            >
+            <ul className="footer-list">
               <li>
                 <a href="/">Home</a>
               </li>
