@@ -13,13 +13,12 @@ const Footer = () => {
       <footer className={styles.footer}>
         <div className={styles.footerContent}>
           <div className={styles.company}>
-            <div className="logo-text" style={{ textAlign: "left" }}>
+            <div className="logo-text">
               <span className="logo-text-enovia">Enovia</span>
               <span className="logo-text-labs">Labs</span>
             </div>
             <ul
               className="footer-list"
-              style={{ display: "flex", gap: "20px" }}
             >
               <li>
                 <a href="/">Home</a>
@@ -52,7 +51,7 @@ const Footer = () => {
 
           <div className={styles.footerDivRight}>
             <div className={styles.social}>
-              <h3>Follow Us</h3>
+              <h4>Follow Us</h4>
               <div className={styles.socialIcons}>
                 <a href="#">
                   <FontAwesomeIcon icon={faFacebookF} />
