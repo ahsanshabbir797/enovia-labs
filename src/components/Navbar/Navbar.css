@@ -34,6 +34,7 @@
 }
 
 .dropdown-item {
+  color: white;
   padding: 10px 15px;
   white-space: nowrap;
 }
@@ -92,16 +93,20 @@
   transition: transform 0.3s ease-in-out;
 }
 
+.menu-item {
+  cursor: pointer;
+}
+
 .link-text {
   color: white;
   text-decoration: none;
   transition: color 0.3s ease;
-  white-space: nowrap;
 }
 
 .link-text:hover {
-  color: white;
+  color: #0ebab1;
 }
+
 
 .rotate {
   transform: rotate(180deg);

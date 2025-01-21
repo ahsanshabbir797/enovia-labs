@@ -13,7 +13,7 @@ type MenuItem = {
   isOpen: boolean;
   routeLink: string;
   hasDropDown?: boolean;
-  dropDownOptions?: string[];
+  dropDownOptions?: {option: string; routeLink: string}[];
 };
 
 const Navbar = () => {
@@ -22,19 +22,19 @@ const Navbar = () => {
     { option: "About Us", routeLink: "/about-us", isOpen: false },
     {
       option: "Services",
-      routeLink: "/services",
+      routeLink: "",
       isOpen: false,
       hasDropDown: true,
       dropDownOptions: [
-        "Web Development",
-        "Staff Augmentation",
-        "Mobile Development",
-        "UI/ UX Design",
-        "IT Consulting",
-        "DevOps",
-        "Data Analytics and Insights",
-        "Digital Marketing",
-        "Graphic Design",
+        { option: "Web Development", routeLink: "web-development" },
+        { option: "Staff Augmentation", routeLink: "staff-augmentation" },
+        { option: "Mobile Development", routeLink: "mobile-development" },
+        { option: "UI UX Design", routeLink: "ui-ux-design" },
+        { option: "IT Consulting", routeLink: "it-consulting" },
+        { option: "DevOps", routeLink: "devops" },
+        { option: "Data Analytics and Insights", routeLink: "data-analytics-and-insights" },
+        { option: "Digital Marketing", routeLink: "digital-marketing" },
+        { option: "Graphic Design", routeLink: "graphic-design" }
       ],
     },
     { option: "Projects", routeLink: "/projects", isOpen: false },
@@ -72,11 +72,11 @@ const Navbar = () => {
       <div className={`nav-content ${isMobileMenuOpen ? "show" : ""}`}>
         <ul className="navbar-items">
           {menuItems.map((item, index) => (
-            <li key={index}>
+            <li key={item.option}>
               <div className="menu-item" onClick={() => handleToggle(index)}>
-                <Link className="link-text" to={item.routeLink}>
+                {index !==2 ? <Link className="link-text" to={item.routeLink}>
                   {item.option}
-                </Link>
+                </Link> : <a className="link-text">{item.option}</a>}
                 {item.hasDropDown && (
                   <FontAwesomeIcon
                     icon={faAngleDown}
@@ -89,11 +89,9 @@ const Navbar = () => {
                   {item.dropDownOptions?.map((dropDownOption, i) => (
                     <li key={i} className="dropdown-item">
                       <Link
-                        to={`${item.routeLink}/${dropDownOption
-                          .toLowerCase()
-                          .replace(/\s+/g, "-")}`}
+                        to={`/services/${dropDownOption.routeLink}`}
                       >
-                        {dropDownOption}
+                        {dropDownOption.option}
                       </Link>
                     </li>
                   ))}

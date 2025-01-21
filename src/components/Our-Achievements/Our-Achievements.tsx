@@ -33,7 +33,7 @@ function OurAchievements() {
         <div className={styles["grid-container"]}>
           {achievements.map((achievement) => {
             return (
-              <div className={styles["grid-item"]}>
+              <div className={styles["grid-item"]} key={achievement.label}>
                 <h1>{achievement.amount}</h1>
                 <p>{achievement.label}</p>
               </div>
