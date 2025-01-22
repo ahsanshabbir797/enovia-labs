@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './ImageCover.module.css'; // Assuming the CSS file is named ImageBanner.css
+import React from "react";
+import styles from "./ImageCover.module.css";
 
 interface BannerProps {
   imagePath: string;
@@ -8,15 +8,30 @@ interface BannerProps {
   height?: string;
 }
 
-const ImageBanner: React.FC<BannerProps> = ({ imagePath, bannerTitle, bannerSubHeading, height }) => {
+const ImageBanner: React.FC<BannerProps> = ({
+  imagePath,
+  bannerTitle,
+  bannerSubHeading,
+  height,
+}) => {
   return (
     <div
       className={styles["banner-container"]}
       style={{ backgroundImage: `url(${imagePath})`, height: height }}
     >
       <div className={styles["banner-overlay"]}>
-        <h3 className={styles["banner-title"]}>{bannerTitle}</h3>
-        <p className={styles["banner-subheading"]}>{bannerSubHeading}</p>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "start",
+            flexDirection: "column",
+            justifyContent: "flex-start",
+            padding: "1rem 3rem",
+          }}
+        >
+          <h3 className={styles["banner-title"]}>{bannerTitle}</h3>
+          <p className={styles["banner-subheading"]}>{bannerSubHeading}</p>
+        </div>
       </div>
     </div>
   );
