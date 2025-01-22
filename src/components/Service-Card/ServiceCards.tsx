@@ -1,17 +1,13 @@
 import React from "react";
 import styles from "./ServiceCards.module.css";
 
-import cardsData from "../../data.json";
 
 interface ServiceCardProps {
-  title?: string;
-  description?: string;
-  icon?: React.ReactNode;
+    servicesCardsHeading?: string;
+    servicesCards?: Array<{id:number, imagePath: string, heading: string}>;
 }
 
-const ServiceCards: React.FC<ServiceCardProps> = () => {
-  const { servicesCards, servicesCardsHeading } =
-    cardsData.ServicesPage.webDevelopment;
+const ServiceCard: React.FC<ServiceCardProps> = ({servicesCardsHeading,servicesCards}) => {
 
   return (
     <div className={styles["main-container"]}>
@@ -19,7 +15,7 @@ const ServiceCards: React.FC<ServiceCardProps> = () => {
         <h1 className={styles["main-heading"]}>{servicesCardsHeading}</h1>
       </div>
       <div className={styles["cards-container"]}>
-        {servicesCards.map((serviceCard) => {
+        {servicesCards?.map((serviceCard:{id:number, imagePath: string, heading: string}) => {
           return (
             <div
               className={styles["card"]}
@@ -37,4 +33,4 @@ const ServiceCards: React.FC<ServiceCardProps> = () => {
   );
 };
 
-export default ServiceCards;
+export default ServiceCard;
