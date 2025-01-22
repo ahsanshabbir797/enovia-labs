@@ -255,5 +255,62 @@
       "label": "Years of Enablement Experience",
       "amount": "3+"
     }
-  ]
+  ],
+  "ServicesPage": {
+    "webDevelopment": {
+      "servicesCardsHeading": "Seamless & Enterprise-ready Web Development ",
+      "servicesCards": [
+        {
+          "id": 1,
+          "heading": "Custom Web Development",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b554bef4caa499b71bacb_Services%20_%20%20Website%20development%20_%20Custom%20Web%20development%20.jpg"
+        },
+        {
+          "id": 2,
+          "heading": "E-Commerce Development",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b5599ba458e09ccccd7b3_Services%20_%20%20Website%20development%20_%20%20Ecommerce%20development%20.jpg"
+        },
+        {
+          "id": 3,
+          "heading": "Content Management Systems (CMS)",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6749aea901aab78f642d6c74_Services%20_%20D365%20CRM%20_%20%20Dynamics%20365%20Marketing%20.jpg"
+        },
+        {
+          "id": 4,
+          "heading": "Web Application Development",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b55e5e7454d12cc1b6457_Services%20_%20%20Website%20development%20_%20%20Webb%20application%20development.jpg"
+        },
+        {
+          "id": 5,
+          "heading": "UI/UX Design",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b560f64a268c25eb28cba_Services%20_%20%20Website%20development%20_%20%20UX%20_UI%20design.JPG"
+        },
+        {
+          "id": 6,
+          "heading": "API Integration & Development",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b563f64a268c25eb2a5ed_Services%20_%20%20Website%20development%20_%20%20API%20integration%20%26%20development%20.JPG"
+        },
+        {
+          "id": 7,
+          "heading": "Website Maintenance & Support",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b566786960a3fa6f47b01_Services%20_%20%20Website%20development%20_%20%20Website%20maintenance%20%26%20support%20.jpg"
+        },
+        {
+          "id": 8,
+          "heading": "SEO & Digital Marketing Integration",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b5685928b06e97f09d899_Services%20_%20%20Website%20development%20_%20%20SEO%20%26%20Digital%20marketing%20integration%20.jpg"
+        },
+        {
+          "id": 9,
+          "heading": "Web Security Solutions",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b56baa498026887c9192d_Services%20_%20%20Website%20development%20_%20Web%20security%20solutions%20.jpg"
+        },
+        {
+          "id": 10,
+          "heading": "Performance Optimization",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b56e6bfb49a67d593801c_Services%20_%20%20Website%20development%20_%20%20Performance%20optimization%20.jpg"
+        }
+      ]
+    }
+  }
 }
