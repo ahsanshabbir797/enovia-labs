@@ -1,13 +1,12 @@
-/* Container for the banner */
+
 .banner-container {
   position: relative;
   width: 100%;
-  height: 16rem; /* Default height for smaller screens */
+  height: 16rem; 
   background-size: cover;
   background-position: center;
 }
 
-/* Overlay on the image */
 .banner-overlay {
   position: absolute;
   top: 0;
@@ -18,55 +17,91 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: flex-start;
+  align-items: center;
   text-align: center;
-  padding: 0 1rem;
+  padding: 3rem 5rem;
 }
 
-/* Banner Title */
+.banner-wrapper {
+  width: 95%;
+  padding: 2rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(1.5rem);
+  background-color: #8686861a;
+}
+
 .banner-title {
-    color: white;
-    font-size: 2.5em;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: 0.2em;
+  color: white;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  margin: 0;
+  text-align: left;
 }
 
-/* Banner Subheading */
 .banner-subheading {
   color: white;
-  font-size: 1.5rem !important; 
-  letter-spacing: 0.5rem;
+  font-size: 2.5rem !important; 
+  letter-spacing: 0.3rem;
+  text-align: left;
+  margin-top: 1rem;
 }
 
-/* Media Queries for Responsiveness */
 
-/* For medium screens (tablets) */
-@media (min-width: 640px) {
-  .banner-container {
-    height: 20rem;
+@media screen and (max-width: 640px) {
+  .banner-wrapper {
+    width: 100%;
   }
-
+  
   .banner-title {
-    /* font-size: 3rem; */
+    color: white;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
   }
-
+  
   .banner-subheading {
-    font-size: 1.125rem;
+    color: white;
+    font-size: 2.0em !important; 
+    letter-spacing: 0.3rem;
   }
 }
 
-/* For large screens (desktops) */
-@media (min-width: 1024px) {
-  .banner-container {
-    height: 24rem;
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .banner-wrapper {
+    width: 95%;
+    padding: 2rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(1.5rem);
+    background-color: #8686861a;
   }
-
+  
   .banner-title {
-    /* font-size: 4rem; */
+    color: white;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    margin: 0;
+    text-align: left;
   }
-
+  
   .banner-subheading {
-    font-size: 1.25rem;
+    color: white;
+    font-size: 2.1rem !important; 
+    letter-spacing: 0.3rem;
+    text-align: left;
+    margin-top: 1rem;
   }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1536px) {
+  
+}
+
+@media screen and (min-width: 1537px) {
 }

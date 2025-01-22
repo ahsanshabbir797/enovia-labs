@@ -17,20 +17,12 @@ const ImageBanner: React.FC<BannerProps> = ({
   return (
     <div
       className={styles["banner-container"]}
-      style={{ backgroundImage: `url(${imagePath})`, height: height }}
+      style={{ backgroundImage: `url(${imagePath})`, height: height,maxHeight: "49rem" }}
     >
       <div className={styles["banner-overlay"]}>
-        <div
-          style={{
-            display: "flex",
-            alignItems: "start",
-            flexDirection: "column",
-            justifyContent: "flex-start",
-            padding: "1rem 3rem",
-          }}
-        >
+        <div className={styles["banner-wrapper"]}>
           <h3 className={styles["banner-title"]}>{bannerTitle}</h3>
-          <p className={styles["banner-subheading"]}>{bannerSubHeading}</p>
+          <h1 className={styles["banner-subheading"]}>{bannerSubHeading}</h1>
         </div>
       </div>
     </div>
