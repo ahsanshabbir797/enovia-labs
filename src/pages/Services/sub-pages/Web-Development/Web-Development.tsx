@@ -13,8 +13,7 @@ const WebDevelopment: React.FC = () => {
   const { servicesCards, servicesCardsHeading, servicesCardsContent } =
     cardsData.ServicesPage.webDevelopment;
 
-  const { overviewText, subHeading, subHeadingContent } =
-    servicesCardsContent;
+  const { overviewText, subHeading, subHeadingContent } = servicesCardsContent;
 
   return (
     <div className={styles.container}>

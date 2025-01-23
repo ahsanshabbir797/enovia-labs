@@ -1,7 +1,6 @@
 import React from "react";
 
 import styles from "./ServiceOverview.module.css";
-// import overviewImage from "../../assets/service-overview-image.jpeg";
 
 interface ServiceOverviewProps {
   overviewText: string;
@@ -42,11 +41,7 @@ const ServiceOverview: React.FC<ServiceOverviewProps> = ({
         </ul>
       </div>
       <div className={styles["image-container"]}>
-        <img
-          src={overviewImage}
-          alt=""
-          className={styles["image-size"]}
-        />
+        <img src={overviewImage} alt="" className={styles["image-size"]} />
       </div>
     </div>
   );
