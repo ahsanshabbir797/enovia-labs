@@ -462,6 +462,68 @@
         ],
         "overviewImage": ""
       }
+    },
+    "uiUxDesign": {
+      "servicesCardsHeading": "Crafting Intuitive & Engaging UI/UX Designs",
+      "servicesCards": [
+        {
+          "id": 1,
+          "heading": "User Research & Analysis",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674bf0d1833e0988000ed22c_portrait-male-engineer-working-field-engineers-day-celebration-p-800.jpg"
+        },
+        {
+          "id": 2,
+          "heading": "Wireframing & Prototyping",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674bf1cc6067c08a08fc0bab_hands-with-transparent-tablet-pc-hologram-p-800.jpg"
+        },
+        {
+          "id": 3,
+          "heading": "Interaction Design",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674bf1982865775678d4d4b5_office-responsive-devices-design-website-3d-rendering-p-800.jpg"
+        },
+        {
+          "id": 4,
+          "heading": "Mobile App Design",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6749f4130abba6550e5dfeef_Services%20_%20Mobile%20App%20development%20%20_%20Native%20Mobile%20application%20development%20-p-800.jpg"
+        },
+        {
+          "id": 5,
+          "heading": "Web Application Design",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b55e5e7454d12cc1b6457_Services%20_%20%20Website%20development%20_%20%20Webb%20application%20development.jpg"
+        },
+        {
+          "id": 6,
+          "heading": "Usability Testing & Optimization",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b56e6bfb49a67d593801c_Services%20_%20%20Website%20development%20_%20%20Performance%20optimization%20.jpg"
+        }
+      ],
+      "servicesCardsContent": {
+        "overviewText": "Our UI/UX design services focus on creating user-centric designs that enhance engagement, ensure accessibility, and deliver exceptional user experiences across web and mobile platforms.",
+        "subHeading": "Why choose us for UI/UX design:",
+        "subHeadingContent": [
+          {
+            "id": 1,
+            "boldText": "User-Centric Approach",
+            "content": "We prioritize user needs by conducting thorough research and creating designs that align with their expectations and behaviors."
+          },
+          {
+            "id": 2,
+            "boldText": "Wireframes to Prototypes",
+            "content": "We provide detailed wireframes and interactive prototypes, giving you a clear visualization of the end product before development begins."
+          },
+          {
+            "id": 3,
+            "boldText": "Responsive Design",
+            "content": "Our designs are optimized for all screen sizes and devices, ensuring a seamless experience for every user."
+          },
+          {
+            "id": 4,
+            "boldText": "Continuous Testing",
+            "content": "Through rigorous usability testing and iterative improvements, we ensure the designs are functional, intuitive, and visually appealing."
+          }
+        ],
+        "overviewImage": ""
+      }
     }
   }
 }

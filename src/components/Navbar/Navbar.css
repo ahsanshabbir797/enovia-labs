@@ -51,6 +51,10 @@
   color: black;
 
 }
+.drop-down-link{
+  width: 100%;
+  display: block;
+}
 
 .logo-text {
   cursor: pointer;
