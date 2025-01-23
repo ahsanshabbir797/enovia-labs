@@ -34,7 +34,7 @@
       "id": 6,
       "name": "IT Consulting",
       "imagePath": "src/assets/IT-consulting.jpg",
-      "show": true
+      "show": false
     },
     {
       "id": 7,
@@ -520,6 +520,63 @@
             "id": 4,
             "boldText": "Continuous Testing",
             "content": "Through rigorous usability testing and iterative improvements, we ensure the designs are functional, intuitive, and visually appealing."
+          }
+        ],
+        "overviewImage": ""
+      }
+    },
+    "dataAnalytics": {
+      "servicesCardsHeading": "Unlock Insights with Advanced Data Analytics",
+      "servicesCards": [
+        {
+          "id": 1,
+          "heading": "Business Intelligence & Reporting",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674d537fede231ae2536edc5_visualization-p-800.jpg"
+        },
+        {
+          "id": 2,
+          "heading": "Big Data Solutions",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674d53008850aa5dd6bf1197_data%20analytics-p-800.jpg"
+        },
+        {
+          "id": 3,
+          "heading": "Predictive Analytics",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674d53c7b2ba589a61441405_analytics-p-800.jpg"
+        },
+        {
+          "id": 4,
+          "heading": "Data Visualization",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674d5409ede231ae25375942_cloud%20analytics%20-p-800.jpg"
+        },
+        {
+          "id": 5,
+          "heading": "ETL & Data Warehousing",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674d52e1c808f4282c8a8acb_data%20engineer%20%26%20etl%20developent%20-p-800.jpg"
+        }
+      ],
+      "servicesCardsContent": {
+        "overviewText": "Our data analytics services help businesses leverage data to uncover actionable insights, optimize operations, and make informed decisions. From raw data to meaningful intelligence, we transform your data into a strategic asset.",
+        "subHeading": "What sets us apart in data analytics:",
+        "subHeadingContent": [
+          {
+            "id": 1,
+            "boldText": "Comprehensive Solutions",
+            "content": "We offer end-to-end analytics solutions, including data collection, processing, and visualization, tailored to your business needs."
+          },
+          {
+            "id": 2,
+            "boldText": "Predictive Analytics",
+            "content": "Our advanced models enable you to forecast trends, understand customer behavior, and identify potential risks or opportunities."
+          },
+          {
+            "id": 3,
+            "boldText": "Big Data Expertise",
+            "content": "We handle large volumes of structured and unstructured data using the latest big data technologies like Hadoop and Spark."
+          },
+          {
+            "id": 4,
+            "boldText": "Interactive Dashboards",
+            "content": "We create intuitive dashboards with tools like Tableau, Power BI, and D3.js to make your data accessible and actionable."
           }
         ],
         "overviewImage": ""
