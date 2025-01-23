@@ -581,6 +581,67 @@
         ],
         "overviewImage": ""
       }
+    },
+    "devOps": {
+      "servicesCardsHeading": "Streamlining Development with DevOps Solutions",
+      "servicesCards": [
+        {
+          "id": 1,
+          "heading": "Continuous Integration & Deployment (CI/CD)",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674bb7233fdbcae503cce319_continuous%20integration%20and%20continuous%20delivery.jpg"
+        },
+        {
+          "id": 2,
+          "heading": "Infrastructure as Code",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674bb73bd3dd1eefa24e0857_infrastructure%20and%20code.JPG"
+        },
+        {
+          "id": 3,
+          "heading": "Containerization & Orchestration",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6749fd1bd942c4d8debecd7d_Services%20_%20web%203%20gaming%20_%20Blockchain%20game%20dev%20.jpg"
+        },
+        {
+          "id": 4,
+          "heading": "Monitoring & Logging",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674d61e2a0f9b416ed0a211d_Digital%20Transformation-p-800.jpg"
+        },
+        {
+          "id": 5,
+          "heading": "Security & Compliance",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674bb73bd3dd1eefa24e0857_infrastructure%20and%20code.JPG"
+        },
+        {
+          "id": 6,
+          "heading": "DevSecOps",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674bb7818ab05d1879907f5d_Cloud%20services%20integration.jpg"
+        }
+      ],
+      "servicesCardsContent": {
+        "overviewText": "Our DevOps solutions streamline development processes, enabling faster delivery, improved collaboration, and enhanced quality across the software development lifecycle.",
+        "subHeading": "What sets us apart:",
+        "subHeadingContent": [
+          {
+            "id": 1,
+            "boldText": "CI/CD Automation",
+            "content": "We automate the build, test, and deployment processes, ensuring faster delivery cycles and reduced manual errors."
+          },
+          {
+            "id": 2,
+            "boldText": "Infrastructure as Code",
+            "content": "Our use of infrastructure as code (IaC) tools like Terraform and Ansible enables consistent, repeatable infrastructure deployments."
+          },
+          {
+            "id": 3,
+            "boldText": "Containerization & Orchestration",
+            "content": "We leverage Docker and Kubernetes to containerize applications and manage containerized workloads efficiently."
+          },
+          {
+            "id": 4,
+            "boldText": "Security-First Approach",
+            "content": "We embed security into every stage of the development process, ensuring compliance, data protection, and threat mitigation."
+          }
+        ]
+      }
     }
   }
 }
