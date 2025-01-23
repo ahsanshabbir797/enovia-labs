@@ -338,6 +338,68 @@
         ],
         "overviewImage":""
       }
+    },
+    "staffAugmentation": {
+      "servicesCardsHeading": "Empowering Teams with Expert Staff Augmentation",
+      "servicesCards": [
+        {
+          "id": 1,
+          "heading": "Dedicated Development Teams",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674bb73bd3dd1eefa24e0857_infrastructure%20and%20code-p-800.jpg"
+        },
+        {
+          "id": 2,
+          "heading": "IT Staff Augmentation",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674d62e6d883f61753244376_DevSecOps-p-800.jpg"
+        },
+        {
+          "id": 3,
+          "heading": "On-Demand Talent",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674d61e2a0f9b416ed0a211d_Digital%20Transformation-p-800.jpg"
+        },
+        {
+          "id": 4,
+          "heading": "Specialized Skill Augmentation",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674d617e79fc1fd8f424f7b9_BPM%20and%20optimization%20-p-800.jpg"
+        },
+        {
+          "id": 5,
+          "heading": "Remote Team Augmentation",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6746ce0fb9160e7c31f33a55_Staff%20Augmentation.webp"
+        },
+        {
+          "id": 6,
+          "heading": "Project-Based Resources",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674bb7233fdbcae503cce319_continuous%20integration%20and%20continuous%20delivery-p-800.jpg"
+        }
+      ],
+      "servicesCardsContent": {
+        "overviewText": "Our staff augmentation services provide businesses with on-demand access to highly skilled professionals, allowing you to scale your team dynamically and achieve project goals faster and more efficiently.",
+        "subHeading": "What makes us the right choice:",
+        "subHeadingContent": [
+          {
+            "id": 1,
+            "boldText": "Tailored Team Solutions",
+            "content": "We provide dedicated resources tailored to your specific project requirements, ensuring seamless integration with your in-house team."
+          },
+          {
+            "id": 2,
+            "boldText": "Expertise Across Domains",
+            "content": "Our professionals bring expertise in various domains, including software development, QA, UI/UX design, and more."
+          },
+          {
+            "id": 3,
+            "boldText": "Scalable Teams",
+            "content": "Easily scale your team size up or down as your project needs evolve, ensuring maximum flexibility and cost efficiency."
+          },
+          {
+            "id": 4,
+            "boldText": "Global Talent Pool",
+            "content": "Access a diverse pool of global talent to meet specialized skill requirements or overcome local hiring constraints."
+          }
+        ],
+        "overviewImage": ""
+      }
     }
   }
 }
