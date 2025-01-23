@@ -1,9 +1,9 @@
 .container {
     display: flex;
+    /* gap: 5rem; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: antiquewhite;
 }
 
 .coverImage {
@@ -11,4 +11,9 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.main-body-container {
+    color: white;
+    width: 93%;
 }

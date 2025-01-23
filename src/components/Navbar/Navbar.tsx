@@ -13,7 +13,7 @@ type MenuItem = {
   isOpen: boolean;
   routeLink: string;
   hasDropDown?: boolean;
-  dropDownOptions?: {option: string; routeLink: string}[];
+  dropDownOptions?: { option: string; routeLink: string }[];
 };
 
 const Navbar = () => {
@@ -30,11 +30,13 @@ const Navbar = () => {
         { option: "Staff Augmentation", routeLink: "staff-augmentation" },
         { option: "Mobile Development", routeLink: "mobile-development" },
         { option: "UI UX Design", routeLink: "ui-ux-design" },
-        { option: "IT Consulting", routeLink: "it-consulting" },
         { option: "DevOps", routeLink: "devops" },
-        { option: "Data Analytics and Insights", routeLink: "data-analytics-and-insights" },
+        {
+          option: "Data Analytics and Insights",
+          routeLink: "data-analytics-and-insights",
+        },
         { option: "Digital Marketing", routeLink: "digital-marketing" },
-        { option: "Graphic Design", routeLink: "graphic-design" }
+        { option: "Graphic Design", routeLink: "graphic-design" },
       ],
     },
     { option: "Projects", routeLink: "/projects", isOpen: false },
@@ -57,6 +59,11 @@ const Navbar = () => {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
+  const handleDropDownClick = (index: number) => {
+    const updatedItems = [...menuItems];
+    updatedItems[index].isOpen = false;
+    setMenuItems(updatedItems);
+  };
 
   return (
     <nav className="nav-container">
@@ -74,9 +81,13 @@ const Navbar = () => {
           {menuItems.map((item, index) => (
             <li key={item.option}>
               <div className="menu-item" onClick={() => handleToggle(index)}>
-                {index !==2 ? <Link className="link-text" to={item.routeLink}>
-                  {item.option}
-                </Link> : <a className="link-text">{item.option}</a>}
+                {index !== 2 ? (
+                  <Link className="link-text" to={item.routeLink}>
+                    {item.option}
+                  </Link>
+                ) : (
+                  <a className="link-text">{item.option}</a>
+                )}
                 {item.hasDropDown && (
                   <FontAwesomeIcon
                     icon={faAngleDown}
@@ -90,6 +101,8 @@ const Navbar = () => {
                     <li key={i} className="dropdown-item">
                       <Link
                         to={`/services/${dropDownOption.routeLink}`}
+                        onClick={() => handleDropDownClick(index)}
+                        className="drop-down-link"
                       >
                         {dropDownOption.option}
                       </Link>

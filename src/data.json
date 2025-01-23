@@ -34,7 +34,7 @@
       "id": 6,
       "name": "IT Consulting",
       "imagePath": "src/assets/IT-consulting.jpg",
-      "show": true
+      "show": false
     },
     {
       "id": 7,
@@ -125,52 +125,52 @@
     {
       "id": 1,
       "name": "Travel & Hospitality",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489aa3c274b240610bc25b_Artboard%201%20copy%203.svg"
+      "imagePath": "src/assets/our-industries/travel-and-hospitality.svg"
     },
     {
       "id": 2,
       "name": "Public Sector",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ab9ff57ca6ca29c7e3c_Artboard%201.svg"
+      "imagePath": "src/assets/our-industries/public-sector.svg"
     },
     {
       "id": 3,
       "name": "Telecommunication",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ac6e39d042f201a88ec_Artboard%201.svg"
+      "imagePath": "src/assets/our-industries/telecommunication.svg"
     },
     {
       "id": 4,
       "name": "Retail & CPG",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ad169e3410b5626a394_Artboard%201.svg"
+      "imagePath": "src/assets/our-industries/retail-and-cpg.svg"
     },
     {
       "id": 5,
       "name": "Oil, Gas and Energy",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ad99f81ad131850be3f_Artboard%201.svg"
+      "imagePath": "src/assets/our-industries/oil-gas-and-energy.svg"
     },
     {
       "id": 6,
       "name": "Startups",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ae2fbd0f9f3f80fe2a6_Artboard%201.svg"
+      "imagePath": "src/assets/our-industries/startups.svg"
     },
     {
       "id": 7,
       "name": "Ecommerce",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489aef95eee1452d5dea90_Artboard%204.svg"
+      "imagePath": "src/assets/our-industries/ecommerce.svg"
     },
     {
       "id": 8,
       "name": "Banking & Fintech",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489af814542fbafe9acef2_Artboard%205.svg"
+      "imagePath": "src/assets/our-industries/banking-and-fintech.svg"
     },
     {
       "id": 9,
       "name": "Healthcare & Pharmaceuticals",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489b016ab8e1ba743df7f2_Artboard%201.svg"
+      "imagePath": "src/assets/our-industries/healthcare-and-pharmaceuticals.svg"
     },
     {
       "id": 10,
       "name": "Gaming",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489b0a2dc083d31fc5da34_Artboard%201.svg"
+      "imagePath": "src/assets/our-industries/gaming.svg"
     }
   ],
   "OurInsights": [
@@ -255,5 +255,511 @@
       "label": "Years of Enablement Experience",
       "amount": "3+"
     }
-  ]
+  ],
+  "ServicesPage": {
+    "webDevelopment": {
+      "servicesCardsHeading": "Seamless & Enterprise-ready Web Development ",
+      "servicesCards": [
+        {
+          "id": 1,
+          "heading": "Custom Web Development",
+          "imagePath": "/src/assets/web-development/custom-web-development.webp"
+        },
+        {
+          "id": 2,
+          "heading": "E-Commerce Development",
+          "imagePath": "/src/assets/web-development/e-commerce-development.webp"
+        },
+        {
+          "id": 3,
+          "heading": "Content Management Systems (CMS)",
+          "imagePath": "/src/assets/web-development/content-management-system.webp"
+        },
+        {
+          "id": 4,
+          "heading": "Web Application Development",
+          "imagePath": "/src/assets/web-development/web-application-development.webp"
+        },
+        {
+          "id": 5,
+          "heading": "UI/UX Design",
+          "imagePath": "/src/assets/web-development/ui-ux-design.webp"
+        },
+        {
+          "id": 6,
+          "heading": "API Integration & Development",
+          "imagePath": "/src/assets/web-development/api-integration-and-development.webp"
+        },
+        {
+          "id": 7,
+          "heading": "Website Maintenance & Support",
+          "imagePath": "/src/assets/web-development/website-maintenance-and-support.webp"
+        },
+        {
+          "id": 8,
+          "heading": "SEO & Digital Marketing Integration",
+          "imagePath": "/src/assets/web-development/seo-and-digital-marketing-integration.webp"
+        },
+        {
+          "id": 9,
+          "heading": "Web Security Solutions",
+          "imagePath": "/src/assets/web-development/web-security-solutions.webp"
+        },
+        {
+          "id": 10,
+          "heading": "Performance Optimization",
+          "imagePath": "/src/assets/web-development/performance-optimization.webp"
+        }
+      ],
+      "servicesCardsContent": {
+        "overviewText": "Our web development services provide enterprise-grade and customized web development services tailored to meet the evolving demands of modern businesses. Whether you need a simple landing page or a complex web application, we have the expertise to deliver results that exceed expectations.",
+        "subHeading": "What we are good at:",
+        "subHeadingContent": [
+          {
+            "id": 1,
+            "boldText": "Cutting-Edge Technologies",
+            "content": "Cutting-Edge Technologies: Our use of the latest frameworks and technologies such as React.js, Angular, Vue.js, Node.js, Laravel, Ruby on Rails, and Python ensures your web solutions are future-ready."
+          },
+          {
+            "id": 2,
+            "boldText": "Responsive Design",
+            "content": "Our approach guarantees your website adapts to all screen sizes, providing a seamless user experience."
+          },
+          {
+            "id": 3,
+            "boldText": "Performance Optimization",
+            "content": "We ensure your website is optimized for speed and performance, leveraging CDNs, lazy loading, and caching strategies to enhance load times."
+          },
+          {
+            "id": 4,
+            "boldText": "Web Security",
+            "content": "We ensure that your website is protected with the latest security standards, including SSL encryption, firewalls, and regular security audits."
+          }
+        ],
+        "overviewImage": ""
+      }
+    },
+    "mobileDevelopment": {
+      "servicesCardsHeading": "Innovative & Scalable Mobile App Development",
+      "servicesCards": [
+        {
+          "id": 1,
+          "heading": "Custom Mobile App Development",
+          "imagePath": "/src/assets/mobile-development/custom-mobile-app-development.jpg"
+        },
+        {
+          "id": 2,
+          "heading": "Cross-Platform App Development",
+          "imagePath": "/src/assets/mobile-development/cross-platform-app-development.jpg"
+        },
+        {
+          "id": 3,
+          "heading": "Native App Development",
+          "imagePath": "/src/assets/mobile-development/native-app-development.jpg"
+        },
+        {
+          "id": 4,
+          "heading": "UI/UX Design for Mobile",
+          "imagePath": "/src/assets/mobile-development/ui-ux-design-for-mobile.jpg"
+        },
+        {
+          "id": 5,
+          "heading": "Mobile App Testing & QA",
+          "imagePath": "/src/assets/mobile-development/mobile-app-testing-qa.jpg"
+        },
+        {
+          "id": 6,
+          "heading": "Enterprise Mobile Apps",
+          "imagePath": "/src/assets/mobile-development/enterprise-mobile-apps.jpg"
+        }
+      ],
+      "servicesCardsContent": {
+        "overviewText": "Our mobile development services offer innovative and scalable solutions to meet the demands of modern businesses. From ideation to deployment, we build applications tailored to your goals and user needs.",
+        "subHeading": "What we excel at:",
+        "subHeadingContent": [
+          {
+            "id": 1,
+            "boldText": "Custom Development",
+            "content": "We create custom mobile solutions for Android, iOS, and hybrid platforms tailored to your business requirements."
+          },
+          {
+            "id": 2,
+            "boldText": "Cross-Platform Expertise",
+            "content": "Our expertise in frameworks like React Native and Flutter ensures seamless cross-platform app experiences."
+          },
+          {
+            "id": 3,
+            "boldText": "Performance Optimization",
+            "content": "We optimize mobile apps for performance, ensuring smooth operation, quick load times, and low memory usage."
+          },
+          {
+            "id": 4,
+            "boldText": "Scalability",
+            "content": "Our apps are designed to scale, ensuring they adapt to increasing user demands and new features effortlessly."
+          }
+        ],
+        "overviewImage": ""
+      }
+    },
+    "staffAugmentation": {
+      "servicesCardsHeading": "Empowering Teams with Expert Staff Augmentation",
+      "servicesCards": [
+        {
+          "id": 1,
+          "heading": "Dedicated Development Teams",
+          "imagePath": "/src/assets/staff-augmentation/dedicated-development-teams.jpg"
+        },
+        {
+          "id": 2,
+          "heading": "IT Staff Augmentation",
+          "imagePath": "/src/assets/staff-augmentation/it-staff-augmentation.jpg"
+        },
+        {
+          "id": 3,
+          "heading": "On-Demand Talent",
+          "imagePath": "/src/assets/staff-augmentation/on-demand-talent.jpg"
+        },
+        {
+          "id": 4,
+          "heading": "Specialized Skill Augmentation",
+          "imagePath": "/src/assets/staff-augmentation/specialized-skill-augmentation.jpg"
+        },
+        {
+          "id": 5,
+          "heading": "Remote Team Augmentation",
+          "imagePath": "/src/assets/staff-augmentation/remote-team-augmentation.jpg"
+        },
+        {
+          "id": 6,
+          "heading": "Project-Based Resources",
+          "imagePath": "/src/assets/staff-augmentation/project-based-resources.jpg"
+        }
+      ],
+      "servicesCardsContent": {
+        "overviewText": "Our staff augmentation services provide businesses with on-demand access to highly skilled professionals, allowing you to scale your team dynamically and achieve project goals faster and more efficiently.",
+        "subHeading": "What makes us the right choice:",
+        "subHeadingContent": [
+          {
+            "id": 1,
+            "boldText": "Tailored Team Solutions",
+            "content": "We provide dedicated resources tailored to your specific project requirements, ensuring seamless integration with your in-house team."
+          },
+          {
+            "id": 2,
+            "boldText": "Expertise Across Domains",
+            "content": "Our professionals bring expertise in various domains, including software development, QA, UI/UX design, and more."
+          },
+          {
+            "id": 3,
+            "boldText": "Scalable Teams",
+            "content": "Easily scale your team size up or down as your project needs evolve, ensuring maximum flexibility and cost efficiency."
+          },
+          {
+            "id": 4,
+            "boldText": "Global Talent Pool",
+            "content": "Access a diverse pool of global talent to meet specialized skill requirements or overcome local hiring constraints."
+          }
+        ],
+        "overviewImage": ""
+      }
+    },
+    "uiUxDesign": {
+      "servicesCardsHeading": "Crafting Intuitive & Engaging UI/UX Designs",
+      "servicesCards": [
+        {
+          "id": 1,
+          "heading": "User Research & Analysis",
+          "imagePath": "/src/assets/ui-ux-design/user-research-analysis.jpg"
+        },
+        {
+          "id": 2,
+          "heading": "Wireframing & Prototyping",
+          "imagePath": "/src/assets/ui-ux-design/wireframing-prototyping.jpg"
+        },
+        {
+          "id": 3,
+          "heading": "Interaction Design",
+          "imagePath": "/src/assets/ui-ux-design/interaction-design.jpg"
+        },
+        {
+          "id": 4,
+          "heading": "Mobile App Design",
+          "imagePath": "/src/assets/ui-ux-design/mobile-app-design.jpg"
+        },
+        {
+          "id": 5,
+          "heading": "Web Application Design",
+          "imagePath": "/src/assets/ui-ux-design/web-application-design.jpg"
+        },
+        {
+          "id": 6,
+          "heading": "Usability Testing & Optimization",
+          "imagePath": "/src/assets/ui-ux-design/usability-testing-optimization.jpg"
+        }
+      ],
+      "servicesCardsContent": {
+        "overviewText": "Our UI/UX design services focus on creating user-centric designs that enhance engagement, ensure accessibility, and deliver exceptional user experiences across web and mobile platforms.",
+        "subHeading": "Why choose us for UI/UX design:",
+        "subHeadingContent": [
+          {
+            "id": 1,
+            "boldText": "User-Centric Approach",
+            "content": "We prioritize user needs by conducting thorough research and creating designs that align with their expectations and behaviors."
+          },
+          {
+            "id": 2,
+            "boldText": "Wireframes to Prototypes",
+            "content": "We provide detailed wireframes and interactive prototypes, giving you a clear visualization of the end product before development begins."
+          },
+          {
+            "id": 3,
+            "boldText": "Responsive Design",
+            "content": "Our designs are optimized for all screen sizes and devices, ensuring a seamless experience for every user."
+          },
+          {
+            "id": 4,
+            "boldText": "Continuous Testing",
+            "content": "Through rigorous usability testing and iterative improvements, we ensure the designs are functional, intuitive, and visually appealing."
+          }
+        ],
+        "overviewImage": ""
+      }
+    },
+    "dataAnalytics": {
+      "servicesCardsHeading": "Unlock Insights with Advanced Data Analytics",
+      "servicesCards": [
+        {
+          "id": 1,
+          "heading": "Business Intelligence & Reporting",
+          "imagePath": "/src/assets/data-analytics/business-intelligence-reporting.jpg"
+        },
+        {
+          "id": 2,
+          "heading": "Big Data Solutions",
+          "imagePath": "/src/assets/data-analytics/big-data-solutions.jpg"
+        },
+        {
+          "id": 3,
+          "heading": "Predictive Analytics",
+          "imagePath": "/src/assets/data-analytics/predictive-analytics.jpg"
+        },
+        {
+          "id": 4,
+          "heading": "Data Visualization",
+          "imagePath": "/src/assets/data-analytics/data-visualization.jpg"
+        },
+        {
+          "id": 5,
+          "heading": "ETL & Data Warehousing",
+          "imagePath": "/src/assets/data-analytics/etl-data-warehousing.jpg"
+        }
+      ],
+      "servicesCardsContent": {
+        "overviewText": "Our data analytics services help businesses leverage data to uncover actionable insights, optimize operations, and make informed decisions. From raw data to meaningful intelligence, we transform your data into a strategic asset.",
+        "subHeading": "What sets us apart in data analytics:",
+        "subHeadingContent": [
+          {
+            "id": 1,
+            "boldText": "Comprehensive Solutions",
+            "content": "We offer end-to-end analytics solutions, including data collection, processing, and visualization, tailored to your business needs."
+          },
+          {
+            "id": 2,
+            "boldText": "Predictive Analytics",
+            "content": "Our advanced models enable you to forecast trends, understand customer behavior, and identify potential risks or opportunities."
+          },
+          {
+            "id": 3,
+            "boldText": "Big Data Expertise",
+            "content": "We handle large volumes of structured and unstructured data using the latest big data technologies like Hadoop and Spark."
+          },
+          {
+            "id": 4,
+            "boldText": "Interactive Dashboards",
+            "content": "We create intuitive dashboards with tools like Tableau, Power BI, and D3.js to make your data accessible and actionable."
+          }
+        ],
+        "overviewImage": ""
+      }
+    },
+    "devOps": {
+      "servicesCardsHeading": "Streamlining Development with DevOps Solutions",
+      "servicesCards": [
+        {
+          "id": 1,
+          "heading": "Continuous Integration & Deployment (CI/CD)",
+          "imagePath": "/src/assets/devops/continuous-integration-deployment-ci-cd.jpg"
+        },
+        {
+          "id": 2,
+          "heading": "Infrastructure as Code",
+          "imagePath": "/src/assets/devops/infrastructure-as-code.jpg"
+        },
+        {
+          "id": 3,
+          "heading": "Containerization & Orchestration",
+          "imagePath": "/src/assets/devops/containerization-orchestration.jpg"
+        },
+        {
+          "id": 4,
+          "heading": "Monitoring & Logging",
+          "imagePath": "/src/assets/devops/monitoring-logging.jpg"
+        },
+        {
+          "id": 5,
+          "heading": "Security & Compliance",
+          "imagePath": "/src/assets/devops/security-compliance.jpg"
+        },
+        {
+          "id": 6,
+          "heading": "DevSecOps",
+          "imagePath": "/src/assets/devops/devsecops.jpg"
+        }
+      ],
+      "servicesCardsContent": {
+        "overviewText": "Our DevOps solutions streamline development processes, enabling faster delivery, improved collaboration, and enhanced quality across the software development lifecycle.",
+        "subHeading": "What sets us apart:",
+        "subHeadingContent": [
+          {
+            "id": 1,
+            "boldText": "CI/CD Automation",
+            "content": "We automate the build, test, and deployment processes, ensuring faster delivery cycles and reduced manual errors."
+          },
+          {
+            "id": 2,
+            "boldText": "Infrastructure as Code",
+            "content": "Our use of infrastructure as code (IaC) tools like Terraform and Ansible enables consistent, repeatable infrastructure deployments."
+          },
+          {
+            "id": 3,
+            "boldText": "Containerization & Orchestration",
+            "content": "We leverage Docker and Kubernetes to containerize applications and manage containerized workloads efficiently."
+          },
+          {
+            "id": 4,
+            "boldText": "Security-First Approach",
+            "content": "We embed security into every stage of the development process, ensuring compliance, data protection, and threat mitigation."
+          }
+        ]
+      }
+    },
+    "digitalMarketing": {
+      "servicesCardsHeading": "Drive Growth with Strategic Digital Marketing",
+      "servicesCards": [
+        {
+          "id": 1,
+          "heading": "Search Engine Optimization (SEO)",
+          "imagePath": "/src/assets/digital-marketing/seo.jpg"
+        },
+        {
+          "id": 2,
+          "heading": "Pay-Per-Click (PPC) Advertising",
+          "imagePath": "/src/assets/digital-marketing/clicks.jpg"
+        },
+        {
+          "id": 3,
+          "heading": "Social Media Marketing",
+          "imagePath": "/src/assets/digital-marketing/socialmedia.jpg"
+        },
+        {
+          "id": 4,
+          "heading": "Content Marketing",
+          "imagePath": "/src/assets/digital-marketing/content.jpg"
+        },
+        {
+          "id": 5,
+          "heading": "Email Marketing Campaigns",
+          "imagePath": "/src/assets/digital-marketing/emailmarketing.jpg"
+        }
+      ],
+      "servicesCardsContent": {
+        "overviewText": "Our digital marketing services help businesses reach their target audience, increase brand awareness, and drive growth through tailored strategies. We combine creativity, technology, and data to deliver impactful marketing campaigns.",
+        "subHeading": "Our digital marketing expertise includes:",
+        "subHeadingContent": [
+          {
+            "id": 1,
+            "boldText": "SEO Optimization",
+            "content": "We improve your website's visibility and rankings on search engines through effective keyword strategies and on-page optimization."
+          },
+          {
+            "id": 2,
+            "boldText": "PPC Campaigns",
+            "content": "Our data-driven PPC campaigns maximize ROI by targeting the right audience with precision."
+          },
+          {
+            "id": 3,
+            "boldText": "Social Media Strategy",
+            "content": "We create engaging social media campaigns to connect with your audience on platforms like Facebook, Instagram, LinkedIn, and Twitter."
+          },
+          {
+            "id": 4,
+            "boldText": "Content Creation",
+            "content": "Our team produces high-quality, relevant content that builds trust and drives conversions."
+          }
+        ],
+        "overviewImage": ""
+      }
+    },
+    "graphicDesign": {
+      "servicesCardsHeading": "Creative & Impactful Graphic Design Solutions",
+      "servicesCards": [
+        {
+          "id": 1,
+          "heading": "Logo & Branding",
+          "imagePath": "/src/assets/graphics-design/logo-and-branding.webp"
+        },
+        {
+          "id": 2,
+          "heading": "Web & Social Media",
+          "imagePath": "/src/assets/graphics-design/web-and-social-media.webp"
+        },
+        {
+          "id": 3,
+          "heading": "Illustration & Infographics",
+          "imagePath": "/src/assets/graphics-design/illustration-and-infographics.webp"
+        },
+        {
+          "id": 4,
+          "heading": "Motion Graphics",
+          "imagePath": "/src/assets/graphics-design/motion-graphics.webp"
+        },
+        {
+          "id": 5,
+          "heading": "Custom Design Solutions",
+          "imagePath": "/src/assets/graphics-design/custom-design-solutions.webp"
+        }
+      ],
+      "servicesCardsContent": {
+        "overviewText": "Our graphic design services combine creativity and strategy to deliver visually compelling designs that resonate with your audience. From branding to digital assets, we create designs that make an impact.",
+        "subHeading": "What we offer in graphic design:",
+        "subHeadingContent": [
+          {
+            "id": 1,
+            "boldText": "Brand Identity",
+            "content": "We craft unique brand identities, including logos, color palettes, and typography, that reflect your brand values and resonate with your audience."
+          },
+          {
+            "id": 2,
+            "boldText": "Web & Social Media",
+            "content": "We create engaging web and social media graphics that drive user engagement, increase brand visibility, and enhance your online presence."
+          },
+          {
+            "id": 3,
+            "boldText": "Illustration & Infographics",
+            "content": "Our illustrative designs and infographics transform complex information into visually appealing assets that are easy to understand and share."
+          },
+          {
+            "id": 4,
+            "boldText": "Motion Graphics",
+            "content": "We produce dynamic motion graphics that captivate audiences, deliver key messages, and enhance user engagement across digital platforms."
+          },
+          {
+            "id": 5,
+            "boldText": "Custom Design Solutions",
+            "content": "We offer custom design solutions tailored to your unique requirements, ensuring your brand stands out in a competitive market."
+          }
+        ]
+      }
+    }
+  }
 }
