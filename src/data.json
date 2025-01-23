@@ -649,27 +649,27 @@
         {
           "id": 1,
           "heading": "Search Engine Optimization (SEO)",
-          "imagePath": "/src/assets/seo.jpg"
+          "imagePath": "/src/assets/digital-marketing/seo.jpg"
         },
         {
           "id": 2,
           "heading": "Pay-Per-Click (PPC) Advertising",
-          "imagePath": "/src/assets/clicks.jpg"
+          "imagePath": "/src/assets/digital-marketing/clicks.jpg"
         },
         {
           "id": 3,
           "heading": "Social Media Marketing",
-          "imagePath": "/src/assets/socialmedia.jpg"
+          "imagePath": "/src/assets/digital-marketing/socialmedia.jpg"
         },
         {
           "id": 4,
           "heading": "Content Marketing",
-          "imagePath": "/src/assets/content.jpg"
+          "imagePath": "/src/assets/digital-marketing/content.jpg"
         },
         {
           "id": 5,
           "heading": "Email Marketing Campaigns",
-          "imagePath": "/src/assets/emailmarketing.jpg"
+          "imagePath": "/src/assets/digital-marketing/emailmarketing.jpg"
         }
       ],
       "servicesCardsContent": {
