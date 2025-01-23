@@ -30,7 +30,6 @@ const Navbar = () => {
         { option: "Staff Augmentation", routeLink: "staff-augmentation" },
         { option: "Mobile Development", routeLink: "mobile-development" },
         { option: "UI UX Design", routeLink: "ui-ux-design" },
-        { option: "IT Consulting", routeLink: "it-consulting" },
         { option: "DevOps", routeLink: "devops" },
         {
           option: "Data Analytics and Insights",
