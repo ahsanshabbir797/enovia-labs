@@ -313,30 +313,92 @@
       ],
       "servicesCardsContent": {
         "overviewText": "Our web development services provide enterprise-grade and customized web development services tailored to meet the evolving demands of modern businesses. Whether you need a simple landing page or a complex web application, we have the expertise to deliver results that exceed expectations.",
-        "subHeading":"What we are good at:",
+        "subHeading": "What we are good at:",
         "subHeadingContent": [
           {
-            "id":1,
+            "id": 1,
             "boldText": "Cutting-Edge Technologies",
             "content": "Cutting-Edge Technologies: Our use of the latest frameworks and technologies such as React.js, Angular, Vue.js, Node.js, Laravel, Ruby on Rails, and Python ensures your web solutions are future-ready."
           },
           {
-            "id":2,
+            "id": 2,
             "boldText": "Responsive Design",
             "content": "Our approach guarantees your website adapts to all screen sizes, providing a seamless user experience."
           },
           {
-            "id":3,
+            "id": 3,
             "boldText": "Performance Optimization",
             "content": "We ensure your website is optimized for speed and performance, leveraging CDNs, lazy loading, and caching strategies to enhance load times."
           },
           {
-            "id":4,
+            "id": 4,
             "boldText": "Web Security",
             "content": "We ensure that your website is protected with the latest security standards, including SSL encryption, firewalls, and regular security audits."
           }
         ],
-        "overviewImage":""
+        "overviewImage": ""
+      }
+    },
+    "mobileDevelopment": {
+      "servicesCardsHeading": "Innovative & Scalable Mobile App Development",
+      "servicesCards": [
+        {
+          "id": 1,
+          "heading": "Custom Mobile App Development",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6749f4130abba6550e5dfeef_Services%20_%20Mobile%20App%20development%20%20_%20Native%20Mobile%20application%20development%20-p-800.jpg"
+        },
+        {
+          "id": 2,
+          "heading": "Cross-Platform App Development",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6749f44a4bfc1e9a97fb55bd_Services%20_%20Mobile%20App%20development%20_%20Cross%20platform%20App%20development%20_%20White%20text%20-p-800.jpg"
+        },
+        {
+          "id": 3,
+          "heading": "Native App Development",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6749f55254cff57bfe358d58_Services%20_%20Mobile%20App%20development%20%20_%20Ongoing%20maintenance%20and%20support%20_%20White%20text%20-p-800.jpg"
+        },
+        {
+          "id": 4,
+          "heading": "UI/UX Design for Mobile",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6749f4d68611fb7ebcffe1f7_Services%20_%20Mobile%20App%20development%20%20_%20Mobile%20app%20modernization%20and%20optimization%20_%20Black%20text%20-p-800.jpg"
+        },
+        {
+          "id": 5,
+          "heading": "Mobile App Testing & QA",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6749f48e2af73618ebd83609_Services%20_%20Mobile%20App%20development%20%20_%20Custom%20mobile%20app%20development%20-p-800.jpg"
+        },
+        {
+          "id": 6,
+          "heading": "Enterprise Mobile Apps",
+          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6749f529f7931987b68014fa_Services%20_%20Mobile%20App%20development%20_%20Mobile%20app%20testing%20and%20QA%20_%20Black%20text%20-p-800.jpg"
+        }
+      ],
+      "servicesCardsContent": {
+        "overviewText": "Our mobile development services offer innovative and scalable solutions to meet the demands of modern businesses. From ideation to deployment, we build applications tailored to your goals and user needs.",
+        "subHeading": "What we excel at:",
+        "subHeadingContent": [
+          {
+            "id": 1,
+            "boldText": "Custom Development",
+            "content": "We create custom mobile solutions for Android, iOS, and hybrid platforms tailored to your business requirements."
+          },
+          {
+            "id": 2,
+            "boldText": "Cross-Platform Expertise",
+            "content": "Our expertise in frameworks like React Native and Flutter ensures seamless cross-platform app experiences."
+          },
+          {
+            "id": 3,
+            "boldText": "Performance Optimization",
+            "content": "We optimize mobile apps for performance, ensuring smooth operation, quick load times, and low memory usage."
+          },
+          {
+            "id": 4,
+            "boldText": "Scalability",
+            "content": "Our apps are designed to scale, ensuring they adapt to increasing user demands and new features effortlessly."
+          }
+        ],
+        "overviewImage": ""
       }
     }
   }
