@@ -699,6 +699,67 @@
         ],
         "overviewImage": ""
       }
+    },
+    "graphicDesign": {
+      "servicesCardsHeading": "Creative & Impactful Graphic Design Solutions",
+      "servicesCards": [
+        {
+          "id": 1,
+          "heading": "Logo & Branding",
+          "imagePath": "/src/assets/graphics-design/logo-and-branding.webp"
+        },
+        {
+          "id": 2,
+          "heading": "Web & Social Media",
+          "imagePath": "/src/assets/graphics-design/web-and-social-media.webp"
+        },
+        {
+          "id": 3,
+          "heading": "Illustration & Infographics",
+          "imagePath": "/src/assets/graphics-design/illustration-and-infographics.webp"
+        },
+        {
+          "id": 4,
+          "heading": "Motion Graphics",
+          "imagePath": "/src/assets/graphics-design/motion-graphics.webp"
+        },
+        {
+          "id": 5,
+          "heading": "Custom Design Solutions",
+          "imagePath": "/src/assets/graphics-design/custom-design-solutions.webp"
+        }
+      ],
+      "servicesCardsContent": {
+        "overviewText": "Our graphic design services combine creativity and strategy to deliver visually compelling designs that resonate with your audience. From branding to digital assets, we create designs that make an impact.",
+        "subHeading": "What we offer in graphic design:",
+        "subHeadingContent": [
+          {
+            "id": 1,
+            "boldText": "Brand Identity",
+            "content": "We craft unique brand identities, including logos, color palettes, and typography, that reflect your brand values and resonate with your audience."
+          },
+          {
+            "id": 2,
+            "boldText": "Web & Social Media",
+            "content": "We create engaging web and social media graphics that drive user engagement, increase brand visibility, and enhance your online presence."
+          },
+          {
+            "id": 3,
+            "boldText": "Illustration & Infographics",
+            "content": "Our illustrative designs and infographics transform complex information into visually appealing assets that are easy to understand and share."
+          },
+          {
+            "id": 4,
+            "boldText": "Motion Graphics",
+            "content": "We produce dynamic motion graphics that captivate audiences, deliver key messages, and enhance user engagement across digital platforms."
+          },
+          {
+            "id": 5,
+            "boldText": "Custom Design Solutions",
+            "content": "We offer custom design solutions tailored to your unique requirements, ensuring your brand stands out in a competitive market."
+          }
+        ]
+      }
     }
   }
 }
