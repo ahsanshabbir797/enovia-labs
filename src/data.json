@@ -642,6 +642,63 @@
           }
         ]
       }
+    },
+    "digitalMarketing": {
+      "servicesCardsHeading": "Drive Growth with Strategic Digital Marketing",
+      "servicesCards": [
+        {
+          "id": 1,
+          "heading": "Search Engine Optimization (SEO)",
+          "imagePath": "/src/assets/seo.jpg"
+        },
+        {
+          "id": 2,
+          "heading": "Pay-Per-Click (PPC) Advertising",
+          "imagePath": "/src/assets/clicks.jpg"
+        },
+        {
+          "id": 3,
+          "heading": "Social Media Marketing",
+          "imagePath": "/src/assets/socialmedia.jpg"
+        },
+        {
+          "id": 4,
+          "heading": "Content Marketing",
+          "imagePath": "/src/assets/content.jpg"
+        },
+        {
+          "id": 5,
+          "heading": "Email Marketing Campaigns",
+          "imagePath": "/src/assets/emailmarketing.jpg"
+        }
+      ],
+      "servicesCardsContent": {
+        "overviewText": "Our digital marketing services help businesses reach their target audience, increase brand awareness, and drive growth through tailored strategies. We combine creativity, technology, and data to deliver impactful marketing campaigns.",
+        "subHeading": "Our digital marketing expertise includes:",
+        "subHeadingContent": [
+          {
+            "id": 1,
+            "boldText": "SEO Optimization",
+            "content": "We improve your website's visibility and rankings on search engines through effective keyword strategies and on-page optimization."
+          },
+          {
+            "id": 2,
+            "boldText": "PPC Campaigns",
+            "content": "Our data-driven PPC campaigns maximize ROI by targeting the right audience with precision."
+          },
+          {
+            "id": 3,
+            "boldText": "Social Media Strategy",
+            "content": "We create engaging social media campaigns to connect with your audience on platforms like Facebook, Instagram, LinkedIn, and Twitter."
+          },
+          {
+            "id": 4,
+            "boldText": "Content Creation",
+            "content": "Our team produces high-quality, relevant content that builds trust and drives conversions."
+          }
+        ],
+        "overviewImage": ""
+      }
     }
   }
 }
