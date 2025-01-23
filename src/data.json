@@ -125,52 +125,52 @@
     {
       "id": 1,
       "name": "Travel & Hospitality",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489aa3c274b240610bc25b_Artboard%201%20copy%203.svg"
+      "imagePath": "src/assets/our-industries/travel-and-hospitality.svg"
     },
     {
       "id": 2,
       "name": "Public Sector",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ab9ff57ca6ca29c7e3c_Artboard%201.svg"
+      "imagePath": "src/assets/our-industries/public-sector.svg"
     },
     {
       "id": 3,
       "name": "Telecommunication",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ac6e39d042f201a88ec_Artboard%201.svg"
+      "imagePath": "src/assets/our-industries/telecommunication.svg"
     },
     {
       "id": 4,
       "name": "Retail & CPG",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ad169e3410b5626a394_Artboard%201.svg"
+      "imagePath": "src/assets/our-industries/retail-and-cpg.svg"
     },
     {
       "id": 5,
       "name": "Oil, Gas and Energy",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ad99f81ad131850be3f_Artboard%201.svg"
+      "imagePath": "src/assets/our-industries/oil-gas-and-energy.svg"
     },
     {
       "id": 6,
       "name": "Startups",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489ae2fbd0f9f3f80fe2a6_Artboard%201.svg"
+      "imagePath": "src/assets/our-industries/startups.svg"
     },
     {
       "id": 7,
       "name": "Ecommerce",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489aef95eee1452d5dea90_Artboard%204.svg"
+      "imagePath": "src/assets/our-industries/ecommerce.svg"
     },
     {
       "id": 8,
       "name": "Banking & Fintech",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489af814542fbafe9acef2_Artboard%205.svg"
+      "imagePath": "src/assets/our-industries/banking-and-fintech.svg"
     },
     {
       "id": 9,
       "name": "Healthcare & Pharmaceuticals",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489b016ab8e1ba743df7f2_Artboard%201.svg"
+      "imagePath": "src/assets/our-industries/healthcare-and-pharmaceuticals.svg"
     },
     {
       "id": 10,
       "name": "Gaming",
-      "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/67489b0a2dc083d31fc5da34_Artboard%201.svg"
+      "imagePath": "src/assets/our-industries/gaming.svg"
     }
   ],
   "OurInsights": [
@@ -263,52 +263,52 @@
         {
           "id": 1,
           "heading": "Custom Web Development",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b554bef4caa499b71bacb_Services%20_%20%20Website%20development%20_%20Custom%20Web%20development%20.jpg"
+          "imagePath": "/src/assets/web-development/custom-web-development.webp"
         },
         {
           "id": 2,
           "heading": "E-Commerce Development",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b5599ba458e09ccccd7b3_Services%20_%20%20Website%20development%20_%20%20Ecommerce%20development%20.jpg"
+          "imagePath": "/src/assets/web-development/e-commerce-development.webp"
         },
         {
           "id": 3,
           "heading": "Content Management Systems (CMS)",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6749aea901aab78f642d6c74_Services%20_%20D365%20CRM%20_%20%20Dynamics%20365%20Marketing%20.jpg"
+          "imagePath": "/src/assets/web-development/content-management-system.webp"
         },
         {
           "id": 4,
           "heading": "Web Application Development",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b55e5e7454d12cc1b6457_Services%20_%20%20Website%20development%20_%20%20Webb%20application%20development.jpg"
+          "imagePath": "/src/assets/web-development/web-application-development.webp"
         },
         {
           "id": 5,
           "heading": "UI/UX Design",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b560f64a268c25eb28cba_Services%20_%20%20Website%20development%20_%20%20UX%20_UI%20design.JPG"
+          "imagePath": "/src/assets/web-development/ui-ux-design.webp"
         },
         {
           "id": 6,
           "heading": "API Integration & Development",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b563f64a268c25eb2a5ed_Services%20_%20%20Website%20development%20_%20%20API%20integration%20%26%20development%20.JPG"
+          "imagePath": "/src/assets/web-development/api-integration-and-development.webp"
         },
         {
           "id": 7,
           "heading": "Website Maintenance & Support",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b566786960a3fa6f47b01_Services%20_%20%20Website%20development%20_%20%20Website%20maintenance%20%26%20support%20.jpg"
+          "imagePath": "/src/assets/web-development/website-maintenance-and-support.webp"
         },
         {
           "id": 8,
           "heading": "SEO & Digital Marketing Integration",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b5685928b06e97f09d899_Services%20_%20%20Website%20development%20_%20%20SEO%20%26%20Digital%20marketing%20integration%20.jpg"
+          "imagePath": "/src/assets/web-development/seo-and-digital-marketing-integration.webp"
         },
         {
           "id": 9,
           "heading": "Web Security Solutions",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b56baa498026887c9192d_Services%20_%20%20Website%20development%20_%20Web%20security%20solutions%20.jpg"
+          "imagePath": "/src/assets/web-development/web-security-solutions.webp"
         },
         {
           "id": 10,
           "heading": "Performance Optimization",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b56e6bfb49a67d593801c_Services%20_%20%20Website%20development%20_%20%20Performance%20optimization%20.jpg"
+          "imagePath": "/src/assets/web-development/performance-optimization.webp"
         }
       ],
       "servicesCardsContent": {
@@ -345,32 +345,32 @@
         {
           "id": 1,
           "heading": "Custom Mobile App Development",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6749f4130abba6550e5dfeef_Services%20_%20Mobile%20App%20development%20%20_%20Native%20Mobile%20application%20development%20-p-800.jpg"
+          "imagePath": "/src/assets/mobile-development/custom-mobile-app-development.jpg"
         },
         {
           "id": 2,
           "heading": "Cross-Platform App Development",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6749f44a4bfc1e9a97fb55bd_Services%20_%20Mobile%20App%20development%20_%20Cross%20platform%20App%20development%20_%20White%20text%20-p-800.jpg"
+          "imagePath": "/src/assets/mobile-development/cross-platform-app-development.jpg"
         },
         {
           "id": 3,
           "heading": "Native App Development",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6749f55254cff57bfe358d58_Services%20_%20Mobile%20App%20development%20%20_%20Ongoing%20maintenance%20and%20support%20_%20White%20text%20-p-800.jpg"
+          "imagePath": "/src/assets/mobile-development/native-app-development.jpg"
         },
         {
           "id": 4,
           "heading": "UI/UX Design for Mobile",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6749f4d68611fb7ebcffe1f7_Services%20_%20Mobile%20App%20development%20%20_%20Mobile%20app%20modernization%20and%20optimization%20_%20Black%20text%20-p-800.jpg"
+          "imagePath": "/src/assets/mobile-development/ui-ux-design-for-mobile.jpg"
         },
         {
           "id": 5,
           "heading": "Mobile App Testing & QA",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6749f48e2af73618ebd83609_Services%20_%20Mobile%20App%20development%20%20_%20Custom%20mobile%20app%20development%20-p-800.jpg"
+          "imagePath": "/src/assets/mobile-development/mobile-app-testing-qa.jpg"
         },
         {
           "id": 6,
           "heading": "Enterprise Mobile Apps",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6749f529f7931987b68014fa_Services%20_%20Mobile%20App%20development%20_%20Mobile%20app%20testing%20and%20QA%20_%20Black%20text%20-p-800.jpg"
+          "imagePath": "/src/assets/mobile-development/enterprise-mobile-apps.jpg"
         }
       ],
       "servicesCardsContent": {
@@ -407,32 +407,32 @@
         {
           "id": 1,
           "heading": "Dedicated Development Teams",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674bb73bd3dd1eefa24e0857_infrastructure%20and%20code-p-800.jpg"
+          "imagePath": "/src/assets/staff-augmentation/dedicated-development-teams.jpg"
         },
         {
           "id": 2,
           "heading": "IT Staff Augmentation",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674d62e6d883f61753244376_DevSecOps-p-800.jpg"
+          "imagePath": "/src/assets/staff-augmentation/it-staff-augmentation.jpg"
         },
         {
           "id": 3,
           "heading": "On-Demand Talent",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674d61e2a0f9b416ed0a211d_Digital%20Transformation-p-800.jpg"
+          "imagePath": "/src/assets/staff-augmentation/on-demand-talent.jpg"
         },
         {
           "id": 4,
           "heading": "Specialized Skill Augmentation",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674d617e79fc1fd8f424f7b9_BPM%20and%20optimization%20-p-800.jpg"
+          "imagePath": "/src/assets/staff-augmentation/specialized-skill-augmentation.jpg"
         },
         {
           "id": 5,
           "heading": "Remote Team Augmentation",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6746ce0fb9160e7c31f33a55_Staff%20Augmentation.webp"
+          "imagePath": "/src/assets/staff-augmentation/remote-team-augmentation.jpg"
         },
         {
           "id": 6,
           "heading": "Project-Based Resources",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674bb7233fdbcae503cce319_continuous%20integration%20and%20continuous%20delivery-p-800.jpg"
+          "imagePath": "/src/assets/staff-augmentation/project-based-resources.jpg"
         }
       ],
       "servicesCardsContent": {
@@ -469,32 +469,32 @@
         {
           "id": 1,
           "heading": "User Research & Analysis",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674bf0d1833e0988000ed22c_portrait-male-engineer-working-field-engineers-day-celebration-p-800.jpg"
+          "imagePath": "/src/assets/ui-ux-design/user-research-analysis.jpg"
         },
         {
           "id": 2,
           "heading": "Wireframing & Prototyping",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674bf1cc6067c08a08fc0bab_hands-with-transparent-tablet-pc-hologram-p-800.jpg"
+          "imagePath": "/src/assets/ui-ux-design/wireframing-prototyping.jpg"
         },
         {
           "id": 3,
           "heading": "Interaction Design",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674bf1982865775678d4d4b5_office-responsive-devices-design-website-3d-rendering-p-800.jpg"
+          "imagePath": "/src/assets/ui-ux-design/interaction-design.jpg"
         },
         {
           "id": 4,
           "heading": "Mobile App Design",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6749f4130abba6550e5dfeef_Services%20_%20Mobile%20App%20development%20%20_%20Native%20Mobile%20application%20development%20-p-800.jpg"
+          "imagePath": "/src/assets/ui-ux-design/mobile-app-design.jpg"
         },
         {
           "id": 5,
           "heading": "Web Application Design",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b55e5e7454d12cc1b6457_Services%20_%20%20Website%20development%20_%20%20Webb%20application%20development.jpg"
+          "imagePath": "/src/assets/ui-ux-design/web-application-design.jpg"
         },
         {
           "id": 6,
           "heading": "Usability Testing & Optimization",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674b56e6bfb49a67d593801c_Services%20_%20%20Website%20development%20_%20%20Performance%20optimization%20.jpg"
+          "imagePath": "/src/assets/ui-ux-design/usability-testing-optimization.jpg"
         }
       ],
       "servicesCardsContent": {
@@ -531,27 +531,27 @@
         {
           "id": 1,
           "heading": "Business Intelligence & Reporting",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674d537fede231ae2536edc5_visualization-p-800.jpg"
+          "imagePath": "/src/assets/data-analytics/business-intelligence-reporting.jpg"
         },
         {
           "id": 2,
           "heading": "Big Data Solutions",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674d53008850aa5dd6bf1197_data%20analytics-p-800.jpg"
+          "imagePath": "/src/assets/data-analytics/big-data-solutions.jpg"
         },
         {
           "id": 3,
           "heading": "Predictive Analytics",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674d53c7b2ba589a61441405_analytics-p-800.jpg"
+          "imagePath": "/src/assets/data-analytics/predictive-analytics.jpg"
         },
         {
           "id": 4,
           "heading": "Data Visualization",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674d5409ede231ae25375942_cloud%20analytics%20-p-800.jpg"
+          "imagePath": "/src/assets/data-analytics/data-visualization.jpg"
         },
         {
           "id": 5,
           "heading": "ETL & Data Warehousing",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674d52e1c808f4282c8a8acb_data%20engineer%20%26%20etl%20developent%20-p-800.jpg"
+          "imagePath": "/src/assets/data-analytics/etl-data-warehousing.jpg"
         }
       ],
       "servicesCardsContent": {
@@ -588,32 +588,32 @@
         {
           "id": 1,
           "heading": "Continuous Integration & Deployment (CI/CD)",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674bb7233fdbcae503cce319_continuous%20integration%20and%20continuous%20delivery.jpg"
+          "imagePath": "/src/assets/devops/continuous-integration-deployment-ci-cd.jpg"
         },
         {
           "id": 2,
           "heading": "Infrastructure as Code",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674bb73bd3dd1eefa24e0857_infrastructure%20and%20code.JPG"
+          "imagePath": "/src/assets/devops/infrastructure-as-code.jpg"
         },
         {
           "id": 3,
           "heading": "Containerization & Orchestration",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6749fd1bd942c4d8debecd7d_Services%20_%20web%203%20gaming%20_%20Blockchain%20game%20dev%20.jpg"
+          "imagePath": "/src/assets/devops/containerization-orchestration.jpg"
         },
         {
           "id": 4,
           "heading": "Monitoring & Logging",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674d61e2a0f9b416ed0a211d_Digital%20Transformation-p-800.jpg"
+          "imagePath": "/src/assets/devops/monitoring-logging.jpg"
         },
         {
           "id": 5,
           "heading": "Security & Compliance",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674bb73bd3dd1eefa24e0857_infrastructure%20and%20code.JPG"
+          "imagePath": "/src/assets/devops/security-compliance.jpg"
         },
         {
           "id": 6,
           "heading": "DevSecOps",
-          "imagePath": "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/674bb7818ab05d1879907f5d_Cloud%20services%20integration.jpg"
+          "imagePath": "/src/assets/devops/devsecops.jpg"
         }
       ],
       "servicesCardsContent": {
