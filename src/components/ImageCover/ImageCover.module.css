@@ -5,6 +5,7 @@
   height: 16rem; 
   background-size: cover;
   background-position: center;
+  max-height: 49rem
 }
 
 .banner-overlay {
@@ -41,13 +42,89 @@
 .banner-subheading {
   color: white;
   font-size: 2.5rem !important; 
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.2rem;
   text-align: left;
   margin-top: 1rem;
 }
 
+.banner-paragraph {
+  color: white;
+  text-align: left;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  font-weight: 100;
+}
+
+.link-flex {
+  display: flex;
+}
+
+.link-container {
+  color: white;
+  display: inline-flex;
+  font-size: 1.2rem;
+  font-weight: 800;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: left;
+  cursor: pointer;
+}
+
+.link-container:hover {
+  color: white;
+}
+
+.link-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.link-container:hover .angle-right-icon {
+  background-color: #0ebab1;
+}
+
+.link-container:hover .line::before {
+  width: 100%;
+}
+
+.line {
+  position: relative;
+  height: 0.5px;
+  margin: 0;
+  width: 100%;
+  background-color: transparent;
+  overflow: hidden;
+  transition: background-color 0.5s ease;
+}
+
+.line::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: #0ebab1;
+  transition: width 0.5s ease;
+}
+
+.angle-right-icon {
+  margin: 0.1rem 0 0 0;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 100;
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  transition: color 0.3s ease;
+}
+
 
 @media screen and (max-width: 640px) {
+
+  .banner-container {
+    max-height: none;
+  }
+  
   .banner-wrapper {
     width: 100%;
   }
@@ -62,6 +139,10 @@
     color: white;
     font-size: 2.0em !important; 
     letter-spacing: 0.3rem;
+  }
+
+  .link-flex {
+    justify-content: center;
   }
 }
 
