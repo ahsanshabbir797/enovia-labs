@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Swal from "sweetalert2";
 import styles from "./ContactUs.module.css";
 
 function ContactUsPage() {
@@ -26,12 +27,25 @@ function ContactUsPage() {
     e.preventDefault(); // Prevents page reload
     console.log("Form Submitted:", formData);
 
-    // Example: Form validation
+    // Form validation
     if (!formData.email || !formData.firstName || !formData.lastName) {
-      alert("Please fill in all required fields.");
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Please fill in all required fields.",
+      });
       return;
     }
 
+    // Show success alert
+    Swal.fire({
+      icon: "success",
+      title: "Form submitted successfully!",
+      text: "Thank you for reaching out. We will get back to you soon.",
+      confirmButtonText: "OK",
+    });
+
+    // Reset form
     setFormData({
       firstName: "",
       lastName: "",
@@ -40,34 +54,6 @@ function ContactUsPage() {
       companyName: "",
       projectDetails: "",
     });
-
-    // Example: Handle form data (e.g., send it to a server)
-    // fetch("/api/contact", {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify(formData),
-    // })
-    //   .then((response) => {
-    //     if (response.ok) {
-    //       alert("Your form has been submitted successfully!");
-    //       setFormData({
-    //         firstName: "",
-    //         lastName: "",
-    //         email: "",
-    //         phoneNumber: "",
-    //         companyName: "",
-    //         projectDetails: "",
-    //       });
-    //     } else {
-    //       alert("There was an error submitting the form.");
-    //     }
-    //   })
-    //   .catch((error) => {
-    //     console.error("Error:", error);
-    //     alert("Something went wrong. Please try again later.");
-    //   });
   };
 
   return (
