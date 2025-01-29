@@ -1,5 +1,6 @@
 import image from "../../assets/web-development.webp";
 import ImageBanner from "../../components/ImageCover/ImageCover";
+import OurServices from "../../components/Our-Services/Our-Services";
 import VideoTextSection from "../../components/VideoTextSection/VideoTextSection";
 
 function AboutUsPage() {
@@ -18,6 +19,7 @@ function AboutUsPage() {
         paragraphContent="At Enovia Labs, our philosophy is simple—empowering people and businesses through innovation. We believe in fostering a collaborative environment, investing in talent, and delivering meaningful solutions that drive progress for our clients and communities worldwide."
         videoUrl={videoLink}
       />
+      <OurServices />
     </div>
   );
 }
