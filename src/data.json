@@ -766,14 +766,14 @@
     {
       "id": 1,
       "title": "S-Squared",
-      "description": "A boutique marketing agency dedicated to crafting impactful marketing experiences",
+      "description": "Developed a high-performance website with modern UI/UX, ensuring seamless user experience and optimized engagement.",
       "liveLink": "https://www.s-squared.co/",
       "image": "src/assets/s-squared.png"
     },
     {
       "id": 2,
-      "title": "ESTA Experts - Online ESTA",
-      "description": "ESTA Experts is a robust and scalable web platform designed to streamline Electronic System for Travel Authorization (ESTA) applications.",
+      "title": "ESTA Experts",
+      "description": "Developed a dynamic website and an admin dashboard for efficient content management, ensuring scalability and performance.",
       "image": "src/assets/esta.png",
       "liveLink": "https://estaexperts.netlify.app/"
     }
