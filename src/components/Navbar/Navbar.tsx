@@ -124,11 +124,9 @@ const Navbar = () => {
         </ul>
 
         <div className="buttons-container">
-          <button className="nav-button">
-            <Link className="link-text" to="/contact-us">
-              Lets Talk Business
-            </Link>
-          </button>
+          <Link className="link-text" to="/contact-us">
+            <button className="nav-button">Lets Talk Business</button>
+          </Link>
         </div>
         {/* 
         Will be implemented when we have more locations
