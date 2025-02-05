@@ -1,10 +1,9 @@
 import styles from "./Footer.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebookF,
-  faTwitter,
   faLinkedinIn,
   faInstagram,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
@@ -51,13 +50,12 @@ const Footer = () => {
             <div className={styles.social}>
               <h4>Follow Us</h4>
               <div className={styles.socialIcons}>
-                <a href="#">
-                  <FontAwesomeIcon icon={faFacebookF} />
+                <a
+                  href="https://www.youtube.com/channel/UCjo81WpdJjdnIUuWHopJECg"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon icon={faYoutube} />
                 </a>
-                <a href="#">
-                  <FontAwesomeIcon icon={faTwitter} />
-                </a>
-
                 <a href="#">
                   <FontAwesomeIcon icon={faLinkedinIn} />
                 </a>
