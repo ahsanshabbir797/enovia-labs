@@ -62,6 +62,16 @@
 .address {
   margin-top: 3rem;
 }
+.addressContainer{
+  display: flex;
+  flex-direction: column;
+}
+.contactContainer{
+  display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
 
 .footerDivRight {
   margin-top: 3rem;
@@ -88,6 +98,7 @@
 .footer .social .socialIcons {
   display: flex;
   gap: 15px;
+  justify-content: center;
 }
 
 .footer .social .socialIcons a {
@@ -135,6 +146,9 @@
 
   .logo-text {
     align-items: center;
+  }
+  .contactContainer > span{
+    font-size: 0.9rem;
   }
 }
 
