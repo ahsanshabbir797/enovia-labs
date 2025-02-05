@@ -1,0 +1,260 @@
+.container {
+  display: flex;
+  color: white;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding: 4rem 1rem 3rem 0rem;
+  background: linear-gradient(
+        6deg,
+        rgba(0, 0, 0, 1) 35%,
+        rgba(3, 45, 43, 1) 51%,
+        rgba(0, 0, 0, 1) 100%
+      );
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.videoWrapper {
+  flex: 1;
+  width: 100%;
+  min-height: 20rem; /* Increased minimum height */
+  position: relative;
+  padding-top: 56.25%; /* Aspect ratio: 16:9 */
+}
+
+.iframeStyles {
+  flex: 1;
+  width: 25rem;
+  height: 30rem;
+  min-height: 100%;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.textWrapper {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraph {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: white;
+  text-align: left;
+  margin-bottom: 0.8rem;
+  margin-top: 1rem;
+}
+
+.main-heading {
+  color: #0ebab1;
+  text-align: left;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0px 0px;
+  padding: 0 0 1% 0;
+}
+
+.link-flex {
+  display: flex;
+}
+
+.link-container {
+  color: white;
+  display: inline-flex;
+  font-size: 1.2rem;
+  font-weight: 800;
+  gap: 0.4rem;
+  align-items: center;
+  justify-content: left;
+  cursor: pointer;
+}
+
+.link-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.link-container:hover .angle-right-icon {
+  background-color: #0ebab1;
+}
+
+.link-container:hover .line::before {
+  width: 100%;
+}
+
+.line {
+  position: relative;
+  height: 0.5px;
+  width: 100%;
+  background-color: transparent;
+  overflow: hidden;
+  transition: background-color 0.5s ease;
+}
+
+.line::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: #0ebab1;
+  transition: width 0.5s ease;
+}
+
+.angle-right-icon {
+  margin: 0.1rem 0 0 0;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 100;
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  transition: color 0.3s ease;
+}
+
+/* Small devices (max-width: 640px) */
+@media screen and (max-width: 640px) {
+  .container {
+    padding: 0.5rem;
+  }
+
+  .paragraph {
+    font-size: 0.875rem;
+  }
+
+  .link-flex {
+    justify-content: center;
+  }
+
+  .iframeStyles {
+    width: 100%;
+    min-height: 20rem;
+    height: 100%;
+    margin: 3rem 0.2rem 0 0.2rem;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 2rem 3rem 2rem;
+    background: (6deg, rgba(0, 0, 0, 1) 35%, rgba(3, 45, 43, 1) 51%, rgba(0, 0, 0, 1) 100%);
+  }
+
+  .link-container {
+    font-size: 1rem;
+  }
+
+  .angle-right-icon {
+    font-size: 1.2rem;
+  }
+}
+
+/* Medium devices (md) - 641px to 768px */
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 3rem 2rem 3rem 2rem;
+  }
+
+  .paragraph {
+    font-size: 1.1rem;
+  }
+
+  .iframeStyles {
+    width: 100%;
+    min-height: 20rem;
+    height: 100%;
+    margin: 3rem 0.2rem 0 0.2rem;
+  }
+}
+
+/* Large devices (lg) - 769px to 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    flex-direction: row;
+    align-items: center;
+    padding: 3rem 1rem 3rem 1rem;
+    gap: 2rem;
+  }
+
+  .iframeStyles {
+    width: 100%;
+    min-height: 24rem;
+    height: 100%;
+    margin: 0rem 0.2rem 0 0.2rem;
+  }
+
+  .textWrapper {
+    padding: 0 1rem;
+  }
+
+  .paragraph {
+    font-size: 1.125rem;
+  }
+}
+
+/* Extra large devices (xl) - 1025px to 1280px */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .container {
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .paragraph {
+    font-size: 1.25rem;
+  }
+
+  .iframeStyles {
+    width: 100%;
+    min-height: 24rem;
+    height: 100%;
+    margin: 0rem 0.2rem 0 0.2rem;
+  }
+}
+
+/* 2xl devices - 1281px to 1536px */
+@media screen and (min-width: 1281px) and (max-width: 1536px) {
+  .container {
+    gap: 2.5rem;
+  }
+
+  .iframeStyles {
+    width: 100%;
+    min-height: 24rem;
+    height: 100%;
+    margin: 0rem 0.2rem 0 0.2rem;
+  }
+
+  .paragraph {
+    font-size: 1.375rem;
+  }
+}
+
+@media screen and (min-width: 1537px) {
+  .container {
+    gap: 3rem;
+    padding: 2rem;
+  }
+
+  .paragraph {
+    font-size: 1.5rem;
+  }
+}
