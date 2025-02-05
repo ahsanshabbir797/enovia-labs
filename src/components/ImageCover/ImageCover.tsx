@@ -6,7 +6,7 @@ import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 interface BannerProps {
   imagePath: string;
   bannerTitle: string;
-  bannerSubHeading: string;
+  bannerSubHeading?: string;
   height?: string;
   paragraphText?: string;
   buttonText?: string;
@@ -32,7 +32,9 @@ const ImageBanner: React.FC<BannerProps> = ({
         <div className={styles["banner-wrapper"]}>
           <h3 className={styles["banner-title"]}>{bannerTitle}</h3>
           <h1 className={styles["banner-subheading"]}>{bannerSubHeading}</h1>
-          {paragraphText?.length ?? (
+          {paragraphText?.length ? (
+            <p className={styles["banner-paragraph"]}>{paragraphText}</p>
+          ) : (
             <p className={styles["banner-paragraph"]}>
               At Enovia Labs, we specialize in transforming businesses with
               enterprise-grade software solutions tailored to their needs. With

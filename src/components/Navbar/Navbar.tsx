@@ -43,10 +43,11 @@ const Navbar = () => {
     { option: "Contact Us", routeLink: "/contact-us", isOpen: false },
   ]);
 
-  const [rightMenu, setRightMenu] = useState({
-    option: "Our Locations",
-    isOpen: false,
-  });
+  // const [rightMenu, setRightMenu] = useState({
+  //   option: "Our Locations",
+  //   isOpen: false,
+  //   dropdownOptions: ["London"],
+  // });
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -63,6 +64,10 @@ const Navbar = () => {
     const updatedItems = [...menuItems];
     updatedItems[index].isOpen = false;
     setMenuItems(updatedItems);
+    handleMenuItemClick();
+  };
+  const handleMenuItemClick = () => {
+    setIsMobileMenuOpen(false);
   };
 
   return (
@@ -82,7 +87,11 @@ const Navbar = () => {
             <li key={item.option}>
               <div className="menu-item" onClick={() => handleToggle(index)}>
                 {index !== 2 ? (
-                  <Link className="link-text" to={item.routeLink}>
+                  <Link
+                    className="link-text"
+                    to={item.routeLink}
+                    onClick={handleMenuItemClick}
+                  >
                     {item.option}
                   </Link>
                 ) : (
@@ -121,7 +130,8 @@ const Navbar = () => {
             </Link>
           </button>
         </div>
-
+        {/* 
+        Will be implemented when we have more locations
         <div
           className="nav-right-option"
           onClick={() =>
@@ -135,7 +145,7 @@ const Navbar = () => {
               className={`caret-icon ${rightMenu.isOpen ? "rotate" : ""}`}
             />
           </span>
-        </div>
+        </div> */}
       </div>
     </nav>
   );

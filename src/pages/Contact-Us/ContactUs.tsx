@@ -24,10 +24,9 @@ function ContactUsPage() {
   };
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault(); // Prevents page reload
+    e.preventDefault();
     console.log("Form Submitted:", formData);
 
-    // Form validation
     if (!formData.email || !formData.firstName || !formData.lastName) {
       Swal.fire({
         icon: "error",
@@ -37,7 +36,6 @@ function ContactUsPage() {
       return;
     }
 
-    // Show success alert
     Swal.fire({
       icon: "success",
       title: "Form submitted successfully!",
@@ -45,7 +43,6 @@ function ContactUsPage() {
       confirmButtonText: "OK",
     });
 
-    // Reset form
     setFormData({
       firstName: "",
       lastName: "",
