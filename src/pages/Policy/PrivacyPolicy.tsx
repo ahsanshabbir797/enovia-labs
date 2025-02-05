@@ -6,7 +6,8 @@ const PrivacyPolicy = () => {
   return (
     <div className={styles.mainContainer}>
       <ImageBanner
-        bannerTitle="Privacy Policy"
+        bannerTitle=""
+        bannerSubHeading="Privacy Policy"
         height="40rem"
         imagePath={policy}
         paragraphText="Last Updated: Feb 01, 2025"

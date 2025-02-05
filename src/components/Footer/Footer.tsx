@@ -2,9 +2,14 @@ import styles from "./Footer.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedinIn,
-  faInstagram,
+  // faInstagram,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import {
+  faMailBulk,
+  faMapMarker,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -40,10 +45,22 @@ const Footer = () => {
 
           <div className={styles.address}>
             <h4>Inquiries</h4>
-            <p>
-              +44 7490 406550
-              <br /> info@enovialabs.co.uk
-            </p>
+            <div className={styles.addressContainer}>
+              <div className={styles.contactContainer}>
+                <FontAwesomeIcon icon={faPhone} />
+                <span>+44 7490 406550</span>
+              </div>
+              <br />
+              <div className={styles.contactContainer}>
+                <FontAwesomeIcon icon={faMailBulk} />
+                <span> info@enovialabs.co.uk</span>
+              </div>
+              <br />
+              <div className={styles.contactContainer}>
+                <FontAwesomeIcon icon={faMapMarker} />
+                <span> Paul Street, London, England, United Kingdom</span>
+              </div>
+            </div>
           </div>
 
           <div className={styles.footerDivRight}>
@@ -56,12 +73,17 @@ const Footer = () => {
                 >
                   <FontAwesomeIcon icon={faYoutube} />
                 </a>
-                <a href="#">
+                <a
+                  href="https://www.linkedin.com/company/enovialabs/"
+                  target="_blank"
+                >
                   <FontAwesomeIcon icon={faLinkedinIn} />
                 </a>
+                {/* 
+                Will be active once we have an insta page
                 <a href="#">
                   <FontAwesomeIcon icon={faInstagram} />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

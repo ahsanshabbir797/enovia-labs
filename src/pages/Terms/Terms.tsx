@@ -6,7 +6,8 @@ const TermsAndConditions = () => {
   return (
     <div className={styles.mainContainer}>
       <ImageBanner
-        bannerTitle="Terms and Conditions"
+        bannerTitle=""
+        bannerSubHeading="Terms and Conditions"
         height="40rem"
         imagePath={policy}
         paragraphText="Our terms and conditions outline the rules and regulations for the use of our software development services."
