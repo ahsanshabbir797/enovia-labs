@@ -112,6 +112,9 @@
 }
 
 @media screen and (max-width: 640px) {
+  .container{
+    flex-direction: column;
+  }
   .form-btn {
     width: 42%;
     padding: 0.6rem 0;
