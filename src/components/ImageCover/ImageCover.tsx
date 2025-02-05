@@ -45,7 +45,9 @@ const ImageBanner: React.FC<BannerProps> = ({
             <a onClick={() => null} className={styles["link-flex"]}>
               <div className={styles["link-container"]}>
                 <p className={styles["link-text"]}>
-                  Get in Touch
+                  <a href="/contact-us" style={{ color: "white" }}>
+                    Get in Touch
+                  </a>
                   <p className={styles["line"]}></p>
                 </p>
                 <FontAwesomeIcon

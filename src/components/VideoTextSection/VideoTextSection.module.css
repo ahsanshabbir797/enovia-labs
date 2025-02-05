@@ -13,6 +13,7 @@
       );
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  align-items: center;
 }
 
 .videoWrapper {
@@ -80,10 +81,6 @@
   align-items: center;
   justify-content: left;
   cursor: pointer;
-}
-
-.link-container:hover {
-  color: black;
 }
 
 .link-text {
@@ -251,10 +248,10 @@
   }
 }
 
-/* Beyond 2xl - Above 1536px */
 @media screen and (min-width: 1537px) {
   .container {
     gap: 3rem;
+    padding: 2rem;
   }
 
   .paragraph {

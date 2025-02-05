@@ -19,13 +19,20 @@ function OurAchievements() {
         <a onClick={() => null} className={styles["link-flex"]}>
           <div className={styles["link-container"]}>
             <p className={styles["link-text"]}>
-              Get in Touch
+              <a
+                href="/contact-us"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                Get in Touch
+              </a>
               <div className={styles["line"]}></div>
             </p>
-            <FontAwesomeIcon
-              icon={faAngleRight}
-              className={styles["angle-right-icon"]}
-            />
+            <a href="/contact-us">
+              <FontAwesomeIcon
+                icon={faAngleRight}
+                className={styles["angle-right-icon"]}
+              />
+            </a>
           </div>
         </a>
       </div>
