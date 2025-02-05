@@ -3,9 +3,11 @@ import data from "../../data.json";
 import styles from "./Our-Services.module.css";
 import { faArrowDown, faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useNavigate } from "react-router-dom";
 
 function OurServices() {
   const [showMore, setShowMore] = useState<boolean>(false);
+  const navigate = useNavigate();
 
   const toggleShowMore = () => {
     setShowMore((prev) => !prev);
@@ -27,6 +29,7 @@ function OurServices() {
                 className={styles["card"]}
                 key={service.id}
                 style={{ backgroundImage: `url("${service.imagePath}")` }}
+                onClick={() => navigate(`${service.link}`)}
               >
                 <h2>{service.name}</h2>
               </div>

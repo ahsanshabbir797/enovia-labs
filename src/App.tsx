@@ -17,6 +17,7 @@ import DigitalMarketing from "./pages/Services/sub-pages/Digital-Marketing/Digit
 import GraphicDesign from "./pages/Services/sub-pages/Graphic-Design/Graphic-Design";
 import TermsAndConditions from "./pages/Terms/Terms";
 import PrivacyPolicy from "./pages/Policy/PrivacyPolicy";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <div className="appContainer">
           <Navbar />
           <main className="mainContent">
+            <ScrollToTop />
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/about-us" element={<AboutUsPage />} />
