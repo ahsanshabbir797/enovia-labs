@@ -85,7 +85,7 @@
   margin-top: 1rem;
   width: 15%;
   padding: 0.8rem 0;
-  background-color: #03a9f4;
+  background-color: #0ebab1;
   color: white;
   border: none;
   border-radius: 0.2rem;
@@ -97,12 +97,12 @@
 }
 
 .form-btn:hover {
-  background-color: #0288d1;
+  background-color: #0ebab1b6;
   transform: translateY(-2px);
 }
 
 .form-btn:active {
-  background-color: #0277bd;
+  background-color: #0ebab1;
   transform: translateY(0);
 }
 

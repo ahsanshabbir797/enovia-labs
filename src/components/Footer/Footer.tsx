@@ -31,10 +31,10 @@ const Footer = () => {
                 <a href="/our-services">Our Services</a>
               </li>
               <li>
-                <a href="/">Terms & Conditions</a>
+                <a href="/terms-and-conditions">Terms & Conditions</a>
               </li>
               <li>
-                <a href="/">Privacy Policy</a>
+                <a href="/privacy-policy">Privacy Policy</a>
               </li>
             </ul>
           </div>
@@ -42,7 +42,7 @@ const Footer = () => {
           <div className={styles.address}>
             <h4>Inquiries</h4>
             <p>
-              (000) 000-000
+              +44 7490 406550
               <br /> info@enovialabs.co.uk
             </p>
           </div>
