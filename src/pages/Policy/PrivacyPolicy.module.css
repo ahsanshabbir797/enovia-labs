@@ -3,6 +3,7 @@
     max-width: 800px;
     margin: 0 auto;
     font-family: Arial, sans-serif;
+    color: white;
   }
   
   .heading {
@@ -13,7 +14,7 @@
   
   .subHeading {
     font-size: 1.8rem;
-    color: #0ebab1;
+    color: white;
     margin-top: 20px;
   }
   
@@ -24,5 +25,6 @@
   
   .section {
     margin-bottom: 20px;
+    color: inherit;
   }
   
