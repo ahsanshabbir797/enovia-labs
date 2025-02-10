@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./ImageCover.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import LazyLoad from "react-lazyload";
 
 interface BannerProps {
   imagePath: string;
@@ -21,6 +22,7 @@ const ImageBanner: React.FC<BannerProps> = ({
   paragraphText,
 }) => {
   return (
+    <LazyLoad height={height || "16rem"} offset={100} once>
     <div
       className={styles["banner-container"]}
       style={{
@@ -62,6 +64,7 @@ const ImageBanner: React.FC<BannerProps> = ({
         </div>
       </div>
     </div>
+    </LazyLoad>
   );
 };
 

@@ -1,6 +1,7 @@
 import React from "react";
 
 import styles from "./ServiceOverview.module.css";
+import LazyLoad from "react-lazyload";
 
 interface ServiceOverviewProps {
   overviewText: string;
@@ -41,7 +42,9 @@ const ServiceOverview: React.FC<ServiceOverviewProps> = ({
         </ul>
       </div>
       <div className={styles["image-container"]}>
+      <LazyLoad height={200} offset={100} once>
         <img src={overviewImage} alt="" className={styles["image-size"]} />
+      </LazyLoad>
       </div>
     </div>
   );

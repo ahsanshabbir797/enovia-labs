@@ -1,5 +1,6 @@
 import styles from "./Projects.module.css";
 import { ourProjects } from "../../data.json";
+import LazyLoad from "react-lazyload";
 
 const Projects = () => {
   const projects = ourProjects;
@@ -10,11 +11,13 @@ const Projects = () => {
       <div className={styles.projectsContainer}>
         {projects.map((project) => (
           <div key={project.id} className={styles.projectCard}>
+            <LazyLoad height={200} offset={100} once>
             <img
               src={project.image}
               alt={project.title}
               className={styles.projectImage}
             />
+            </LazyLoad>
             <div className={styles.projectInfo}>
               <h3 className={styles.projectTitle}>{project.title}</h3>
               <p className={styles.projectDescription}>{project.description}</p>
