@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./OurInsights.module.css";
 import data from "../../data.json";
+import LazyLoad from "react-lazyload";
 
 const OurInsights: React.FC = () => {
   const cardData = data.OurInsights;
@@ -21,7 +22,9 @@ const OurInsights: React.FC = () => {
         {cardData.map((card, index) => (
           <a href={card.link} target="_blank" key={card.id}>
             <div key={index} className={styles.card}>
+            <LazyLoad height={200} offset={100} once>
               <img src={card.image} alt={card.title} />
+            </LazyLoad>
               <div className={styles.cardContent}>
                 <p className={styles.cardSubtitle}>{card.type}</p>
                 <h3 className={styles.cardTitle}>{card.title}</h3>
